@@ -5,10 +5,9 @@
 //  Created by roy on 1/15/25.
 //
 #include <TargetConditionals.h> // required in Xcode 8+
+#define RINGO_CV 1
 
 #ifdef __cplusplus
-
-#define RINGO_CV 1
 
 #if TARGET_OS_SIMULATOR
 #else
