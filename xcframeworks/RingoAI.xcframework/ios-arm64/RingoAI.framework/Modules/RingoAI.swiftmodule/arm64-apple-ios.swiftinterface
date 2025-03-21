@@ -169,47 +169,47 @@ extension UIKit.UIView {
   }
   @_Concurrency.MainActor @preconcurrency public var right: CoreFoundation.CGFloat {
     get
-    set(right)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var bottom: CoreFoundation.CGFloat {
     get
-    set(bottom)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var midX: CoreFoundation.CGFloat {
     get
-    set(midX)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var midY: CoreFoundation.CGFloat {
     get
-    set(midY)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var leftEdge: CoreFoundation.CGFloat {
     get
-    set(leftEdge)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var topEdge: CoreFoundation.CGFloat {
     get
-    set(topEdge)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var rightEdge: CoreFoundation.CGFloat {
     get
-    set(rightEdge)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var bottomEdge: CoreFoundation.CGFloat {
     get
-    set(bottomEdge)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var cornerRadii: CoreFoundation.CGFloat {
     get
-    set(cornerRadius)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var borderColor: UIKit.UIColor {
     get
-    set(borderColor)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var borderWidth: CoreFoundation.CGFloat {
     get
-    set(borderWidth)
+    set
   }
   public struct UIViewShadow {
   }

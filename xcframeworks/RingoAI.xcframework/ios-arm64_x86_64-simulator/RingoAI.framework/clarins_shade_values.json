@@ -1,0 +1,402 @@
+{
+	"modification_date": 1741151089,
+	"Lcoef_manual": [0.0, 1.0, 0.0],
+	"Lcoef_auto": [0.0, 0.9333, 0.005679],
+	"Lcoef_hybrid": [0.0, 1.1335, 0.0],
+	"Hcoef_manual": [0.0, 1.0, 0.0],
+	"Hcoef_auto": [0.0, 1.0404, 0.0],
+	"Hcoef_hybrid": [0.0, 1.0404, 0.0],
+	"adjustments":  [[30,25],[50,50],[60,60],[80,80]],
+	"shade_values": {
+		"Skin Illusion Full Coverage" : {
+			"familyID": "1",
+			"colName": "SI_FullCoverage",
+			"matchingLines": [3.396282502518146, 0.9390012260658605, 0.0],
+			"matchingLinesAlt": [-59.8, 3.4, -0.0232],
+			"decision": [
+				[-1,0,1],
+				[0,-1,1],
+				[-1,1,1,0],
+				[1,-1,1,1,1,1,1,0,0]
+			],
+			"assets": {
+				"100.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.3n_-80106978-1288332_presentation.png",
+				"100.4 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.4n_-80106979-1288333_presentation.png",
+				"100.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.5w_-80106980-1288331_presentation.png",
+				"100 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100c_-80106977-1288339_presentation.png",
+				"101 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-101w_-80106981-1288337_presentation.png",
+				"102.5 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-102.5c_-80106982-1288338_presentation.png",
+				"103 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-103n_-80106983-1288343_presentation.png",
+				"105 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-105n_-80106984-1288345_presentation.png",
+				"105.5 W":	"Skin Illusion Full Coverage 2025-30ml-Packshot-105.5w_-80106985-1288344_presentation.png",
+				"106 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-106n-80106986-1288349_presentation.png",
+				"107 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-107c_-80106987-1288350_presentation.png",
+				"108.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108.3n_-80106989-1288351_presentation.png",
+				"108.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108.5w_-80106990-1288355_presentation.png",
+				"108 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108w_-80106988-1288357_presentation.png",
+				"109 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-109c_-80106991-1288356_presentation.png",
+				"110.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-110.5w_-80106993-1288361_presentation.png",
+				"110 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-110n_-80106992-1288363_presentation.png",
+				"111 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-111n_-80106994-1288362_presentation.png",
+				"112.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.3n_-80106996-1288367_presentation.png",
+				"112.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.5w_-80106997-1288368_presentation.png",
+				"112.7 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.7w_-80106998-1288369_presentation.png",
+				"112 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112c_-80106995-1288373_presentation.png",
+				"113 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-113c_-80106999-1288374_presentation.png",
+				"114.3 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114.3w_-80107001-1288375_presentation.png",
+				"114.5":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114.5w_-80107002-1288379_presentation.png",
+				"114 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114n_-80107000-1288380_presentation.png",
+				"115 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-115c_-80107003-1288381_presentation.png",
+				"116.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-116.5w_-80107004-1288385_presentation.png",
+				"117.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-117.5w_-80107006-1288387_presentation.png",
+				"117 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-117n_-80107005-1288386_presentation.png",
+				"118.3 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118.3w_-80107008-1288393_presentation.png",
+				"118.5 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118.5n_-80107009-1288392_presentation.png",
+				"118 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118n_-80107007-1288391_presentation.png",
+				"119.5 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-119.5c_-80107011-1288397_presentation.png",
+				"119 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-119w_-80107010-1288398_presentation.png",
+				"120 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-120c_-80107012-1288399_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 36, "name": "120 C", 		"desc":"neutral", 			"productID":"36", "rgb": "614840", "L": 33.10, "H": 0.0428322077	},
+				{"i": 35, "name": "119.5 C",	"desc":"rosy", 				"productID":"35", "rgb": "644A3E", "L": 33.87, "H": 0.0493184932	},
+				{"i": 34, "name": "119 W", 		"desc":"rosy",				"productID":"34", "rgb": "795542", "L": 39.40, "H": 0.0578557430	},
+				{"i": 33, "name": "118.5 N", 	"desc":"neutral-rosy", 		"productID":"33", "rgb": "7C573E", "L": 40.20, "H": 0.0662699545	},
+				{"i": 32, "name": "118 N", 		"desc":"neutral-rosy", 		"productID":"32", "rgb": "815D45", "L": 42.57, "H": 0.0657879479	},
+				{"i": 31, "name": "118.3 W", 	"desc":"golden", 			"productID":"31", "rgb": "855E42", "L": 43.33, "H": 0.0689574046	},
+				{"i": 30, "name": "117.5 W", 	"desc":"neutral-golden", 	"productID":"30", "rgb": "885F43", "L": 44.07, "H": 0.0683883476	},
+				{"i": 29, "name": "116.5 W", 	"desc":"golden", 			"productID":"29", "rgb": "8B6345", "L": 45.53, "H": 0.0719777816	},
+				{"i": 28, "name": "117 N", 		"desc":"neutral-rosy", 		"productID":"28", "rgb": "92684C", "L": 47.63, "H": 0.0655593633	},
+				{"i": 27, "name": "115 C", 		"desc":"neutral-golden", 	"productID":"27", "rgb": "9D7153", "L": 51.40, "H": 0.0680001622	},
+				{"i": 26, "name": "113 C", 		"desc":"neutral", 			"productID":"26", "rgb": "A27456", "L": 52.67, "H": 0.0646241730	},
+				{"i": 25, "name": "114.5", 		"desc":"golden", 			"productID":"25", "rgb": "A47450", "L": 52.83, "H": 0.0711619347	},
+				{"i": 24, "name": "114 N", 		"desc":"neutral", 			"productID":"24", "rgb": "A4785B", "L": 54.10, "H": 0.0659547884	},
+				{"i": 23, "name": "112.7 W", 	"desc":"golden", 			"productID":"23", "rgb": "A47B5F", "L": 55.00, "H": 0.0687954793	},
+				{"i": 22, "name": "114.3 W", 	"desc":"very golden", 		"productID":"22", "rgb": "AF7C54", "L": 56.20, "H": 0.0731913438	},
+				{"i": 21, "name": "112 C", 		"desc":"neutral-rosy", 		"productID":"21", "rgb": "A97F67", "L": 56.57, "H": 0.0601807059	},
+				{"i": 20, "name": "112.3 N", 	"desc":"neutral", 			"productID":"20", "rgb": "AC8266", "L": 57.67, "H": 0.0658067765	},
+				{"i": 19, "name": "111 N", 		"desc":"neutral", 			"productID":"19", "rgb": "AC8269", "L": 57.73, "H": 0.0617845187	},
+				{"i": 18, "name": "112.5 W", 	"desc":"very golden", 		"productID":"18", "rgb": "B08667", "L": 59.33, "H": 0.0716413450	},
+				{"i": 17, "name": "110.5 W", 	"desc":"golden", 			"productID":"17", "rgb": "B28769", "L": 59.80, "H": 0.0687332300	},
+				{"i": 16, "name": "110 N", 		"desc":"neutral-golden", 	"productID":"16", "rgb": "B48A6E", "L": 60.73, "H": 0.0660585711	},
+				{"i": 15, "name": "107 C", 		"desc":"neutral-rosy", 		"productID":"14", "rgb": "B48B75", "L": 61.17, "H": 0.0574397167	},
+				{"i": 14, "name": "108.5 W", 	"desc":"neutral", 			"productID":"14", "rgb": "B88A70", "L": 61.20, "H": 0.0599357576	},
+				{"i": 13, "name": "108.3 N", 	"desc":"neutral", 			"productID":"13", "rgb": "B88C72", "L": 61.80, "H": 0.0612839953	},
+				{"i": 12, "name": "109 C", 		"desc":"rosy", 				"productID":"12", "rgb": "B88C76", "L": 62.00, "H": 0.0567730681	},
+				{"i": 11, "name": "106 N", 		"desc":"neutral", 			"productID":"11", "rgb": "BD9074", "L": 63.47, "H": 0.0651791236	},
+				{"i": 10, "name": "105.5 W", 	"desc":"golden", 			"productID":"10", "rgb": "C09271", "L": 64.07, "H": 0.0693125547	},
+				{"i":  9, "name": "108 W", 		"desc":"neutral-rosy", 		"productID":"09", "rgb": "C09174", "L": 64.07, "H": 0.0642950765	},
+				{"i":  8, "name": "102.5 C", 	"desc":"neutral-rosy", 		"productID":"08", "rgb": "BB947F", "L": 64.30, "H": 0.0570797060	},
+				{"i":  7, "name": "103 N", 		"desc":"neutral-golden",	"productID":"07", "rgb": "BE987F", "L": 65.70, "H": 0.0657822237	},
+				{"i":  6, "name": "105 N", 		"desc":"netural-golden",	"productID":"06", "rgb": "C59A7D", "L": 66.73, "H": 0.0672725396	},
+				{"i":  5, "name": "100.5 W", 	"desc":"very golden", 		"productID":"05", "rgb": "C19C7E", "L": 66.97, "H": 0.0747372291	},
+				{"i":  4, "name": "101 W", 		"desc":"golden", 			"productID":"04", "rgb": "C39D80", "L": 67.63, "H": 0.0725898017	},
+				{"i":  3, "name": "100.4 N", 	"desc":"neutral", 			"productID":"03", "rgb": "C49E85", "L": 68.03, "H": 0.0682168670	},
+				{"i":  2, "name": "100.3 N", 	"desc":"neutral", 			"productID":"02", "rgb": "C39F88", "L": 68.20, "H": 0.0644463854	},
+				{"i":  1, "name": "100 C", 		"desc":"neutral", 			"productID":"01", "rgb": "CFAC95", "L": 72.83, "H": 0.0663954380	}
+			],
+			"gridMatcher": [
+				{ "range.L": [68, 1000], "group": [
+					{ "H": 0.0663954380, "shade": 1, "friends": [2] } ]
+				}, { "range.L": [65, 68], "group": [
+					{ "H": 0.0644463854, "shade": 2, "friends": [3] },
+					{ "H": 0.0682168670, "shade": 3, "friends": [6,2] },
+					{ "H": 0.0672725396, "shade": 6, "friends": [7] },
+					{ "H": 0.0725898017, "shade": 4, "friends": [5] },
+					{ "H": 0.0747372291, "shade": 5, "friends": [4] }  ]
+				}, { "range.L": [62, 65], "group": [
+					{ "H": 0.0570797060, "shade": 8, "friends": [9] },
+					{ "H": 0.0642950765, "shade": 9, "friends": [11] },
+					{ "H": 0.0651791236, "shade": 11, "friends": [9,13] },
+					{ "H": 0.0657822237, "shade": 7, "friends": [6] },
+					{ "H": 0.0693125547, "shade": 10, "friends": [7] } ]
+				}, { "range.L": [59, 62], "group": [
+					{ "H": 0.0567730681, "shade": 12, "friends": [15] },
+					{ "H": 0.0574397167, "shade": 15, "friends": [13,14] },
+					{ "H": 0.0599357576, "shade": 14, "friends": [13] },
+					{ "H": 0.0612839953, "shade": 13, "friends": [14,16] },
+					{ "H": 0.0660585711, "shade": 16, "friends": [13,14] } ]
+				}, { "range.L": [57, 59], "group": [
+					{ "H": 0.0601807059, "shade": 21, "friends": [19,20] },
+					{ "H": 0.0617845187, "shade": 19, "friends": [20,21] },
+					{ "H": 0.0658067765, "shade": 20, "friends": [19,17] },
+					{ "H": 0.0687332300, "shade": 17, "friends": [20,16] },
+					{ "H": 0.0716413450, "shade": 18, "friends": [17,20] } ]
+				}, { "range.L": [54, 57], "group": [
+					{ "H": 0.0659547884, "shade": 24, "friends": [26] },
+					{ "H": 0.0687954793, "shade": 23, "friends": [24] },
+					{ "H": 0.0731913438, "shade": 22, "friends": [23,25] } ]
+				}, { "range.L": [51, 54], "group": [
+					{ "H": 0.0646241730, "shade": 26, "friends": [24] },
+					{ "H": 0.0680001622, "shade": 27, "friends": [24,25] },
+					{ "H": 0.0711619347, "shade": 25, "friends": [27,22] } ]
+				}, { "range.L": [48, 51], "group": [
+					{ "H": 0.0655593633, "shade": 28, "friends": [29,31] },
+					{ "H": 0.0719777816, "shade": 29, "friends": [28,31] } ]
+				}, { "range.L": [44, 48], "group": [
+					{ "H": 0.0657879479, "shade": 32, "friends": [31,28] },
+					{ "H": 0.0683883476, "shade": 30, "friends": [31,29] },
+					{ "H": 0.0689574046, "shade": 31, "friends": [29] } ]
+				}, { "range.L": [40, 44], "group": [
+					{ "H": 0.0578557430, "shade": 34, "friends": [33] },
+					{ "H": 0.0662699545, "shade": 33, "friends": [32,31] } ]
+				}, { "range.L": [0, 40],  "group": [
+					{ "H": 0.0493184932, "shade": 35, "friends": [36] },
+					{ "H": 0.0428322077, "shade": 36, "friends": [35] } ]
+				}
+			]
+		},
+		"Clarins Skin Illusion" : {
+			"familyID": "2",
+			"colName": "ClarinsSkinIllusion",
+			"matchingLines": [69.78444,-1.89929,0.02826],
+			"default": 1,
+			"decision": [
+				[1,1,0],
+				[1,0,0],
+				[1,1,1,1],
+				[1,1,0,0,0,1,1,0,0]
+			],
+			"assets": {
+				"116.5W": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-116.5w-80039705-191013_presentation.png",
+				"117N": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-117n-80039706-191016_presentation.png",
+				"118N": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-118n-80039707-191017_presentation.png",
+				"108.5W": 	"Skin Illusion Foundation - 2018-30ml-Packshot-108.5w-80039696-190936_presentation.png",
+				"111N": 	"Skin Illusion Foundation - 2018-30ml-Packshot-111n-80039699-190959_presentation.png",
+				"112.3N": 	"Skin Illusion Foundation - 2018-30ml-Packshot-112.3n-80039701-190932_presentation.png",
+				"100.5W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-100.5w-80039889-190950_presentation.png",
+				"100C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-100c-80050027-190969_presentation.png",
+				"101W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-101w-80039688-190946_presentation.png",
+				"102.5C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-102.5c-80039689-190944_presentation.png",
+				"103N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-103n-80039690-190953_presentation.png",
+				"105.5W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-105.5w-80054189-190970_presentation.png",
+				"105N":		"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-105n-80039691-190942_presentation.png",
+				"106N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-106n-80039692-190954_presentation.png",
+				"107C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-107c-80039693-190940_presentation.png",
+				"108.3N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-108.3n-80039695-190957_presentation.png",
+				"108W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-108w-80039694-190938_presentation.png",
+				"109C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-109c-80039697-190934_presentation.png",
+				"110N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-110n-80039698-190962_presentation.png",
+				"112C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-112c-80039700-190949_presentation.png",
+				"113C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-113c-80039702-190960_presentation.png",
+				"114N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-114n-80039703-190930_presentation.png",
+				"115C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-115c-80039704-190928_presentation.png",
+				"118.5N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-118.5n-80039708-190965_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 24, "name": "100C", 	"desc":"neutral", 		"productID":"24", "rgb": "CFAC95", "L": 69.17, "H": 0.054296},
+				{"i": 23, "name": "100.5W", "desc":"very golden", 	"productID":"23", "rgb": "C19C7E", "L": 69.87, "H": 0.074154},
+				{"i": 22, "name": "101W", 	"desc":"golden", 		"productID":"22", "rgb": "C39D80", "L": 67.33, "H": 0.072591},
+				{"i": 21, "name": "102.5C", "desc":"neutral-rosy", 	"productID":"21", "rgb": "BB947F", "L": 64.13, "H": 0.057335},
+				{"i": 20, "name": "103N", 	"desc":"neutral-golden", "productID":"20", "rgb": "BE987F", "L": 67.13, "H": 0.068776},
+				{"i": 19, "name": "105N", 	"desc":"netural-golden", "productID":"19", "rgb": "C59A7D", "L": 67.20, "H": 0.062776},
+				{"i": 18, "name": "105.5W", "desc":"golden", 		"productID":"18", "rgb": "C09271", "L": 65.17, "H": 0.070411},
+				{"i": 17, "name": "106N", 	"desc":"neutral", 		"productID":"17", "rgb": "BD9074", "L": 64.73, "H": 0.069419},
+				{"i": 16, "name": "107C", 	"desc":"neutral-rosy", 	"productID":"16", "rgb": "B48B75", "L": 64.97, "H": 0.061787},
+				{"i": 15, "name": "108W", 	"desc":"neutral-rosy", 	"productID":"14", "rgb": "C09174", "L": 63.30, "H": 0.066453},
+				{"i": 14, "name": "108.3N", "desc":"neutral", 		"productID":"14", "rgb": "B88C72", "L": 61.70, "H": 0.067501},
+				{"i": 13, "name": "108.5W", "desc":"neutral", 		"productID":"13", "rgb": "B88A70", "L": 59.50, "H": 0.061843},
+				{"i": 12, "name": "109C", 	"desc":"rosy", 			"productID":"12", "rgb": "B88C76", "L": 59.20, "H": 0.060324},
+				{"i": 11, "name": "110N", 	"desc":"neutral-golden", "productID":"11", "rgb": "B48A6E", "L": 60.17, "H": 0.070118},
+				{"i": 10, "name": "111N", 	"desc":"neutral", 		"productID":"10", "rgb": "AC8269", "L": 56.27, "H": 0.068134},
+				{"i":  9, "name": "112C", 	"desc":"neutral-rosy", 	"productID":"09", "rgb": "A97F67", "L": 53.77, "H": 0.062733},
+				{"i":  8, "name": "112.3N", "desc":"neutral", 		"productID":"08", "rgb": "AC8266", "L": 53.53, "H": 0.06678},
+				{"i":  7, "name": "113C", 	"desc":"neutral",		"productID":"07", "rgb": "A27456", "L": 52.53, "H": 0.056438},
+				{"i":  6, "name": "114N", 	"desc":"neutral",		"productID":"06", "rgb": "A4785B", "L": 51.93, "H": 0.064106},
+				{"i":  5, "name": "115C", 	"desc":"neutral-golden", "productID":"05", "rgb": "9D7153", "L": 47.67, "H": 0.059518},
+				{"i":  4, "name": "116.5W", "desc":"golden", 		"productID":"04", "rgb": "8B6345", "L": 46.53, "H": 0.065319},
+				{"i":  3, "name": "117N", 	"desc":"neutral-rosy", 	"productID":"03", "rgb": "92684C", "L": 45.80, "H": 0.06259},
+				{"i":  2, "name": "118N", 	"desc":"neutral-rosy", 	"productID":"02", "rgb": "815D45", "L": 41.53, "H": 0.062662},
+				{"i":  1, "name": "118.5N", "desc":"neutral-rosy", 	"productID":"01", "rgb": "7C573E", "L": 40.50, "H": 0.056666}
+			],
+			"gridMatcher": [
+				{ "range.L": [70, 1000], "group": [
+					{ "H": 0.054, "shade": 24, "friends": [19] } ,
+					{ "H": 0.074, "shade": 23, "friends": [22] } ]
+				}, { "range.L": [67, 70], "group": [
+					{ "H": 0.063, "shade": 19, "friends": [20] },
+					{ "H": 0.069, "shade": 20, "friends": [19,17,22] },
+					{ "H": 0.073, "shade": 22, "friends": [17,22] }]
+				}, { "range.L": [62, 67], "group": [
+					{ "H": 0.057, "shade": 21, "friends": [16] },
+					{ "H": 0.062, "shade": 16, "friends": [15] },
+					{ "H": 0.067, "shade": 15, "friends": [17] },
+					{ "H": 0.069, "shade": 17, "friends": [15] },
+					{ "H": 0.070, "shade": 18, "friends": [17,22] } ]
+				}, { "range.L": [56, 62], "group": [
+					{ "H": 0.060, "shade": 12, "friends": [13] },
+					{ "H": 0.062, "shade": 13, "friends": [12,14] },
+					{ "H": 0.068, "shade": 14, "friends": [11,17] },
+					{ "H": 0.070, "shade": 11, "friends": [14] }]
+				}, { "range.L": [52,56], "group": [
+					{ "H": 0.063, "shade": 9, "friends": [8] },
+					{ "H": 0.067, "shade": 8, "friends": [10,9,6] },
+					{ "H": 0.068, "shade": 10, "friends": [8] }]
+				}, { "range.L": [50,52], "group": [
+					{ "H": 0.056, "shade": 7, "friends": [9] },
+					{ "H": 0.064, "shade": 6, "friends": [8] }]
+				}, { "range.L": [43,50], "group": [
+					{ "H": 0.060, "shade": 5, "friends": [3] },
+					{ "H": 0.063, "shade": 3, "friends": [5] },
+					{ "H": 0.065, "shade": 4, "friends": [] } ]
+				}, { "range.L": [0,43], "group": [
+					{ "H": 0.057, "shade": 1, "friends": [2] },
+					{ "H": 0.063, "shade": 2, "friends": [1] } ]
+				}
+			]
+		},
+		"Clarins Oleo Tinted Serum" : {
+			"familyID": "3",
+			"colName": "ClarinsOleoTintedSerum",
+			"matchingLines": [-111.35797,5.13301,-0.03715],
+			"decision": [
+				[1,0,-1],
+				[0,1,-1],
+				[1,1,0,0],
+				[-1,1,-1,0,-1,0,0,1,0]
+			],
+			"assets": {
+				"1":	"Tinted Oleo-Serum 2023-30ml-Packshot-01-80098949-930164_presentation.png",
+				"2":	"Tinted Oleo-Serum 2023-30ml-Packshot-02-80098950-930165_presentation.png",
+				"2.5":	"Tinted Oleo-Serum 2023-30ml-Packshot-02.5-80098951-930161_presentation.png",
+				"3":	"Tinted Oleo-Serum 2023-30ml-Packshot-03-80098952-930167_presentation.png",
+				"4":	"Tinted Oleo-Serum 2023-30ml-Packshot-04-80098953-930171_presentation.png",
+				"5":	"Tinted Oleo-Serum 2023-30ml-Packshot-05-80098954-930170_presentation.png",
+				"6":	"Tinted Oleo-Serum 2023-30ml-Packshot-06-80098955-930173_presentation.png",
+				"7":	"Tinted Oleo-Serum 2023-30ml-Packshot-07-80098956-930178_presentation.png",
+				"8":	"Tinted Oleo-Serum 2023-30ml-Packshot-08-80098957-930175_presentation.png",
+				"9":	"Tinted Oleo-Serum 2023-30ml-Packshot-09-80098958-930179_presentation.png",
+				"10":	"Tinted Oleo-Serum 2023-30ml-Packshot-10-80100266-930181_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 11, "name": "1", 		"desc":"Packshot 1", 	"productID":"80098949", "rgb": "c8ab94", "L": 65.73, "H": 0.072528},
+				{"i": 10, "name": "2", 		"desc":"Packshot 2", 	"productID":"80098950", "rgb": "d2ae94", "L": 66.43, "H": 0.073651},
+				{"i":  9, "name": "2.5", 	"desc":"Packshot 2.5", 	"productID":"80098951", "rgb": "c1987c", "L": 65.43, "H": 0.06191},
+				{"i":  8, "name": "3",		"desc":"Packshot 3", 	"productID":"80098952", "rgb": "bf9a7c", "L": 64.43, "H": 0.068122},
+				{"i":  7, "name": "4", 		"desc":"Packshot 4",	"productID":"80098953", "rgb": "c19a77", "L": 63.57, "H": 0.075391},
+				{"i":  6, "name": "5", 		"desc":"Packshot 5",	"productID":"80098954", "rgb": "bb9373", "L": 59.67, "H": 0.0662},
+				{"i":  5, "name": "6", 		"desc":"Packshot 6", 	"productID":"80098955", "rgb": "bf9676", "L": 56.73, "H": 0.063221},
+				{"i":  4, "name": "7", 		"desc":"Packshot 7", 	"productID":"80098956", "rgb": "a47050", "L": 50.40, "H": 0.06853},
+				{"i":  3, "name": "8", 		"desc":"Packshot 8", 	"productID":"80098957", "rgb": "9b6f5d", "L": 46.03, "H": 0.062152},
+				{"i":  2, "name": "9", 		"desc":"Packshot 9", 	"productID":"80098958", "rgb": "835750", "L": 41.13, "H": 0.047037},
+				{"i":  1, "name": "10", 	"desc":"Packshot 10", 	"productID":"80100266", "rgb": "835653", "L": 35.23, "H": 0.045589}
+			],
+			"gridMatcher": [
+				{ "range.L": [64.5,1000], "group": [
+					{ "H": 0.062, "shade": 9, "friends": [] },
+					{ "H": 0.073, "shade": 11, "friends": [] },
+					{ "H": 0.074, "shade": 10, "friends": [] }]
+				}, { "range.L": [61,64.5], "group": [
+					{ "H": 0.068, "shade": 8, "friends": [] },
+					{ "H": 0.075, "shade": 7, "friends": [] }]
+				}, { "range.L": [58.5,61], "group": [
+					{ "H": 0.067, "shade": 6, "friends": [] }]
+				}, { "range.L": [52,58.5], "group": [
+					{ "H": 0.063, "shade": 5, "friends": [] }]
+				}, { "range.L": [48,52], "group": [
+					{ "H":0.069 , "shade": 4, "friends": [] }]
+				}, { "range.L": [44,48], "group": [
+					{ "H": 0.062, "shade":  3,"friends": [] }]
+				}, { "range.L": [38,44], "group": [
+					{ "H":0.047 , "shade": 2, "friends": [] }]
+				}, { "range.L": [0,38], "group": [
+					{ "H":0.046 , "shade": 1, "friends": [] }]
+				}
+			]
+		},
+		"Skin Illusion Velvet": {
+			"familyID": "4",
+			"colName": "SIVelvet",
+			"matchingLines": [3.396282502518146, 0.9390012260658605, 0.0],
+			"matchingLinesAlt": [-59.8, 3.4, -0.0232],
+			"decision": [
+				[1,1,0],
+				[0,0,1],
+				[1,1,1,1],
+				[1,0,1,1,1,1,1,0,0]
+			],
+			"assets": {
+				"100.3N":	"Skin Illusion Velvet-30ml-Packshot-100.3n-shell-80079985-600656_presentation.png",
+				"101W":		"Skin Illusion Velvet-30ml-Packshot-101w-linen-80079892-600662_presentation.png",
+				"102.5C":	"Skin Illusion Velvet-30ml-Packshot-102.5c-porcelain-80079893-600664_presentation.png",
+				"103N":		"Skin Illusion Velvet-30ml-Packshot-103n-ivory-80079894-600665_presentation.png",
+				"105.5W":	"Skin Illusion Velvet-30ml-Packshot-105.5w-flesh-80079896-600658_presentation.png",
+				"105N":		"Skin Illusion Velvet-30ml-Packshot-105n-nude-80079895-511061_presentation.png",
+				"106N":		"Skin Illusion Velvet-30ml-Packshot-106n-vanilla-80079897-600650_presentation.png",
+				"107C":		"Skin Illusion Velvet-30ml-Packshot-107c-beige-80079898-600646_presentation.png",
+				"108.3N":	"Skin Illusion Velvet-30ml-Packshot-108.3n-organza-80079900-600670_presentation.png",
+				"108.5W":	"Skin Illusion Velvet-30ml-Packshot-108.5w-cashew-80079901-600666_presentation.png",
+				"108W":		"Skin Illusion Velvet-30ml-Packshot-108w-sand-80079899-600673_presentation.png",
+				"109C":		"Skin Illusion Velvet-30ml-Packshot-109c-wheat-80079902-600678_presentation.png",
+				"110.5W":	"Skin Illusion Velvet-30ml-Packshot-110.5w-tawny-80079987-600657_presentation.png",
+				"110N":		"Skin Illusion Velvet-30ml-Packshot-110n-honey-80079903-600672_presentation.png",
+				"111N":		"Skin Illusion Velvet-30ml-Packshot-111n-auburn-80079904-600682_presentation.png",
+				"112.3N":	"Skin Illusion Velvet-30ml-Packshot-112.3n-sandalwood-80079906-600676_presentation.png",
+				"112.5W":	"Skin Illusion Velvet-30ml-Packshot-112.5w-caramel-80079989-600652_presentation.png",
+				"112C":		"Skin Illusion Velvet-30ml-Packshot-112c-amber-80079905-600679_presentation.png",
+				"113C":		"Skin Illusion Velvet-30ml-Packshot-113c-chestnut-80079907-600684_presentation.png",
+				"114N":		"Skin Illusion Velvet-30ml-Packshot-114n-cappuccino-80079908-600685_presentation.png",
+				"115C":		"Skin Illusion Velvet-30ml-Packshot-115c-cognac-80079909-600690_presentation.png",
+				"116.5W":	"Skin Illusion Velvet-30ml-Packshot-116.5w-coffee-80079910-600689_presentation.png",
+				"117N":		"Skin Illusion Velvet-30ml-Packshot-117n-hazelnut-80079911-600696_presentation.png",
+				"118.5N":	"Skin Illusion Velvet-30ml-Packshot-118.5n-chocolate-80079913-600695_presentation.png",
+				"118N":		"Skin Illusion Velvet-30ml-Packshot-118n-sienna-80079912-511098_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i":  25, 	"name": "100.3N", 	"desc":"shell", 	"productID":"80079985", "rgb": "fbd0aa", "L": 72.83, "H": 0.0663954380	},
+				{"i":  24,	"name": "101W",		"desc":"linen", 	"productID":"80079892", "rgb": "f1c18b", "L": 72.83, "H": 0.0663954380	},
+				{"i":  23,	"name": "102.5C", 	"desc":"porcelain", "productID":"80079893", "rgb": "edbb98", "L": 72.83, "H": 0.0663954380	},
+				{"i":  22,	"name": "103N",		"desc":"ivory", 	"productID":"80079894", "rgb": "f0c297", "L": 72.83, "H": 0.0663954380	},
+				{"i":  21,	"name": "105.5W", 	"desc":"flesh", 	"productID":"80079896", "rgb": "e8b782", "L": 72.83, "H": 0.0663954380	},
+				{"i":  20,	"name": "105N",		"desc":"nude", 		"productID":"80079895", "rgb": "f1bd88", "L": 72.83, "H": 0.0663954380	},
+				{"i":  19,	"name": "106N", 	"desc":"vanilla", 	"productID":"80079897", "rgb": "f1bd88", "L": 72.83, "H": 0.0663954380	},
+				{"i":  18,	"name": "107C", 	"desc":"beige", 	"productID":"80079898", "rgb": "edb488", "L": 72.83, "H": 0.0663954380	},
+				{"i":  17,	"name": "108.3N",	"desc":"organza", 	"productID":"80079900", "rgb": "e6b489", "L": 72.83, "H": 0.0663954380	},
+				{"i":  16,	"name": "108.5W", 	"desc":"cashew", 	"productID":"80079901", "rgb": "e3ad7c", "L": 72.83, "H": 0.0663954380	},
+				{"i":  15,	"name": "108W", 	"desc":"sand", 		"productID":"80079899", "rgb": "ebb282", "L": 72.83, "H": 0.0663954380	},
+				{"i":  14,	"name": "109C", 	"desc":"wheat", 	"productID":"80079902", "rgb": "e1ac84", "L": 72.83, "H": 0.0663954380	},
+				{"i":  13,	"name": "110.5W", 	"desc":"tawny", 	"productID":"80079987", "rgb": "e7b07c", "L": 72.83, "H": 0.0663954380	},
+				{"i":  12,	"name": "110N",		"desc":"honey", 	"productID":"80079903", "rgb": "e1b282", "L": 72.83, "H": 0.0663954380	},
+				{"i":  11,	"name": "111N",		"desc":"auburn", 	"productID":"80079904", "rgb": "d8a274", "L": 72.83, "H": 0.0663954380	},
+				{"i":  10,	"name": "112.3N",	"desc":"sandalwood","productID":"80079906", "rgb": "e0ab75", "L": 72.83, "H": 0.0663954380	},
+				{"i":  9, 	"name": "112.5W", 	"desc":"caramel", 	"productID":"80079989", "rgb": "edb178", "L": 72.83, "H": 0.0663954380	},
+				{"i":  8, 	"name": "112C",		"desc":"amber", 	"productID":"80079905", "rgb": "dda375", "L": 72.83, "H": 0.0663954380	},
+				{"i":  7, 	"name": "113C", 	"desc":"chestnut", 	"productID":"80079907", "rgb": "d19363", "L": 72.83, "H": 0.0663954380	},
+				{"i":  6, 	"name": "114N", 	"desc":"cappuccino","productID":"80079908", "rgb": "d89e67", "L": 72.83, "H": 0.0663954380	},
+				{"i":  5, 	"name": "115C", 	"desc":"cognac", 	"productID":"80079909", "rgb": "cf9a61", "L": 72.83, "H": 0.0663954380	},
+				{"i":  4, 	"name": "116.5W",	"desc":"coffee", 	"productID":"80079910", "rgb": "cf9051", "L": 72.83, "H": 0.0663954380	},
+				{"i":  3, 	"name": "117N",  	"desc":"hazelnut", 	"productID":"80079911", "rgb": "c57f3d", "L": 72.83, "H": 0.0663954380	},
+				{"i":  2, 	"name": "118.5N",	"desc":"chocolate", "productID":"80079913", "rgb": "9e612d", "L": 72.83, "H": 0.0663954380	},
+				{"i":  1, 	"name": "118N", 	"desc":"sienna", 	"productID":"80079912", "rgb": "985d2b", "L": 72.83, "H": 0.0663954380	}
+			],
+			"gridMatcher": [
+				{ "range.L": [0, 1000], "group": [
+					{ "H": 0.0663954380, "shade": 1, "friends": [] } ]
+				}
+			]
+		},
+		"BB Cream": {
+			"familyID": "5",
+			"colName": "BBCream",
+			"matchingLines": [3.396282502518146, 0.9390012260658605, 0.0],
+			"matchingLinesAlt": [-59.8, 3.4, -0.0232],
+			"decision": [
+				[1,0,0],
+				[1,1,0],
+				[1,1,1,1],
+				[0,1,0,0,0,0,0,1,0]
+			],
+			"assets" : {
+				"default": "2016 BB Cream Skin Detox SPF 25 ferme.tif_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i":  1, "name": "100 C", 		"desc":"neutral", 			"productID":"01", "rgb": "CFAC95", "L": 72.83, "H": 0.0663954380	}
+			],
+			"gridMatcher": [
+				{ "range.L": [0, 1000], "group": [
+					{ "H": 0.0663954380, "shade": 1, "friends": [] } ]
+				}
+			]
+		}
+	}
+}

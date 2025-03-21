@@ -42497,84 +42497,84 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "IntegerLiteral",
-      "offset": 3256,
+      "offset": 3149,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 3281,
+      "offset": 3174,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "IntegerLiteral",
-      "offset": 3323,
+      "offset": 3216,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "IntegerLiteral",
-      "offset": 3333,
+      "offset": 3226,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6142,
+      "offset": 6041,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6266,
+      "offset": 6165,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6285,
+      "offset": 6184,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6308,
+      "offset": 6207,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6330,
+      "offset": 6229,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6536,
+      "offset": 6435,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6559,
+      "offset": 6458,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/extensions\/UIView+.swift",
       "kind": "FloatLiteral",
-      "offset": 6583,
+      "offset": 6482,
       "length": 3,
       "value": "0.0"
     },
@@ -45570,77 +45570,77 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "IntegerLiteral",
-      "offset": 6950,
+      "offset": 7140,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "IntegerLiteral",
-      "offset": 6960,
+      "offset": 7150,
       "length": 2,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "IntegerLiteral",
-      "offset": 8641,
+      "offset": 8831,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "IntegerLiteral",
-      "offset": 8690,
+      "offset": 8880,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "FloatLiteral",
-      "offset": 8736,
+      "offset": 8926,
       "length": 4,
       "value": "73.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "IntegerLiteral",
-      "offset": 36193,
+      "offset": 36383,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "BooleanLiteral",
-      "offset": 36214,
+      "offset": 36404,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "BooleanLiteral",
-      "offset": 36604,
+      "offset": 36794,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "FloatLiteral",
-      "offset": 36897,
+      "offset": 37087,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "FloatLiteral",
-      "offset": 37557,
+      "offset": 37747,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/Settings\/Settings.swift",
       "kind": "BooleanLiteral",
-      "offset": 38193,
+      "offset": 38383,
       "length": 5,
       "value": "false"
     },
