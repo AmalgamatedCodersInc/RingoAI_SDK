@@ -7,6 +7,8 @@
 
 #ifdef __OBJC__
 #import <Foundation/Foundation.h>
+#import <CoreImage/CoreImage.h>
+
 //#import <MediaPipeTasksVision/MediaPipeTasksVision.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -26,9 +28,18 @@ NS_ASSUME_NONNULL_BEGIN
 //- (BOOL)detect:(MPPImage *)image
 // timestampInMS:(NSInteger)ts;
 //@end
+#if __cplusplus
+extern "C" {
+#endif
+void getRGBAfromCIImage(CIImage* _Nonnull img, void (^ _Nonnull callback)(UInt32* _Nonnull buffer, size_t width, size_t height, size_t rowbytes));
+#if __cplusplus
+}
+#endif
+
 NS_ASSUME_NONNULL_END
 #else
 #endif
+
 
 #if __cplusplus
 #import <vector>
@@ -36,10 +47,12 @@ NS_ASSUME_NONNULL_END
 typedef std::vector<float> F32vector;
 typedef Float32* F32pointer;
 
+
 #if MATRIX2D_PTR
 void getAVDepthDataBuffer(void* _Nonnull depthData, size_t& width, size_t& height, size_t& span, F32pointer _Nonnull & values);
 #else
 void getAVDepthDataBuffer(void* _Nonnull depthData, size_t& width, size_t& height, size_t& span, F32vector& values);
 #endif
+
 
 #endif

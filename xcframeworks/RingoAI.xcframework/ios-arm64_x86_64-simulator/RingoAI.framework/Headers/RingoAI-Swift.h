@@ -851,6 +851,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackCaptureMinDistance
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackCaptureMaxDistance;)
 + (double)stackCaptureMaxDistance SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackCaptureMaxDistance:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double phoneTiltMax;)
++ (double)phoneTiltMax SWIFT_WARN_UNUSED_RESULT;
++ (void)setPhoneTiltMax:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double phoneTiltTime;)
++ (double)phoneTiltTime SWIFT_WARN_UNUSED_RESULT;
++ (void)setPhoneTiltTime:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double xyTopFarMargin;)
 + (double)xyTopFarMargin SWIFT_WARN_UNUSED_RESULT;
 + (void)setXyTopFarMargin:(double)newValue;
@@ -1858,6 +1864,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackCaptureMinDistance
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackCaptureMaxDistance;)
 + (double)stackCaptureMaxDistance SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackCaptureMaxDistance:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double phoneTiltMax;)
++ (double)phoneTiltMax SWIFT_WARN_UNUSED_RESULT;
++ (void)setPhoneTiltMax:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double phoneTiltTime;)
++ (double)phoneTiltTime SWIFT_WARN_UNUSED_RESULT;
++ (void)setPhoneTiltTime:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double xyTopFarMargin;)
 + (double)xyTopFarMargin SWIFT_WARN_UNUSED_RESULT;
 + (void)setXyTopFarMargin:(double)newValue;

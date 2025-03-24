@@ -791,6 +791,14 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     get
     set
   }
+  @objc public static var phoneTiltMax: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var phoneTiltTime: Swift.Double {
+    @objc get
+    @objc set
+  }
   @objc public static var xyTopFarMargin: Swift.Double {
     @objc get
     @objc set
