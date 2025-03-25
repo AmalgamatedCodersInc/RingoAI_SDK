@@ -2,4 +2,4 @@
 
 This repo does have the **arm64** simulator binaries but not x86.
 
-2025.03.20 build
+2025.03.23 build
