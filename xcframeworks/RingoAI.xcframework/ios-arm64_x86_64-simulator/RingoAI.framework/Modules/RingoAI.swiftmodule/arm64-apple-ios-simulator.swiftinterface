@@ -137,7 +137,7 @@ extension UIKit.UIView {
   }
   @_Concurrency.MainActor @preconcurrency public var topLeft: CoreFoundation.CGPoint {
     get
-    set(origin)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var bottomLeft: CoreFoundation.CGPoint {
     get
@@ -153,19 +153,19 @@ extension UIKit.UIView {
   }
   @_Concurrency.MainActor @preconcurrency public var x: CoreFoundation.CGFloat {
     get
-    set(x)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var y: CoreFoundation.CGFloat {
     get
-    set(y)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var width: CoreFoundation.CGFloat {
     get
-    set(width)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var height: CoreFoundation.CGFloat {
     get
-    set(height)
+    set
   }
   @_Concurrency.MainActor @preconcurrency public var right: CoreFoundation.CGFloat {
     get
