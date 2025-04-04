@@ -1,3 +1,5 @@
 # RingoAI_SDK
 
-This repo has all simulator binaries
+Build 2025.04.03
+
+• com.mediapipe.tasks.vision crash fix
