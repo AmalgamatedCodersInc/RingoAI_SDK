@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RingoAI
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RingoAI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import AVKit
 import Accelerate
@@ -302,8 +302,8 @@ extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public func safeshow(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func show(_ title: Swift.String, message: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: @escaping ((UIKit.UIAlertAction) -> Swift.Void))
-  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping ((Swift.Int) -> Swift.Void))
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: @escaping (UIKit.UIAlertAction) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func dismiss(completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func currentEditFrame() -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency public func attachKeyboard()
@@ -360,7 +360,7 @@ extension Swift.Comparable {
   public static func OPTIONS() -> RingoAI.WebService
   public static func TRACE() -> RingoAI.WebService
   public init(_ method: RingoAI.HTTPMethod)
-  public func start(callback: @escaping ((RingoAI.JSON?, (any Swift.Error)?) -> Swift.Void))
+  public func start(callback: @escaping (RingoAI.JSON?, (any Swift.Error)?) -> Swift.Void)
   public func cancel()
   @objc deinit
 }
@@ -942,11 +942,12 @@ public struct RGBFloat : Swift.Hashable {
   public init(r: Swift.Double, g: Swift.Double, b: Swift.Double)
   public init(rByte: Swift.UInt8, gByte: Swift.UInt8, bByte: Swift.UInt8)
   public init(rgb: [Swift.Double])
+  public init(rgb: [Swift.Int])
   public init(lab: RingoAI.LabFloat)
   public init(lab: [Swift.Double])
   public init(json: [Swift.Float])
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RingoAI.RGBFloat, b: RingoAI.RGBFloat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -963,6 +964,7 @@ extension Foundation.NSNotification.Name {
   @objc open var defaultProduct: Swift.String {
     @objc get
   }
+  @objc open var productLines: [Swift.String]
   @objc open var familyIDTable: [Swift.String : Swift.String]
   @objc public func name() -> Swift.String
   @objc public func uxname() -> Swift.String
@@ -1053,6 +1055,7 @@ extension UIKit.UIButton {
   @objc override dynamic public init()
   @objc deinit
 }
+public let onlyUseProductsKey: Swift.String
 public let customerIdKey: Swift.String
 public let launchIdKey: Swift.String
 public let foregroundIdKey: Swift.String
@@ -1113,7 +1116,7 @@ public struct CaptureExposure {
 }
 public var originalBrightness: CoreFoundation.CGFloat
 public func thermals(_ i: Swift.Int) -> Swift.String
-public typealias FaceCaptureCallback = (([Swift.String : Any]?) -> Swift.Void)
+public typealias FaceCaptureCallback = ([Swift.String : Any]?) -> Swift.Void
 extension RingoAI.FaceCapture : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
@@ -1285,15 +1288,9 @@ extension CoreFoundation.CGRect {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
 extension UIKit.UIViewController : @retroactive UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
 }
-#else
-extension UIKit.UIViewController : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
-}
-#endif
 extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public func hideKeyboardWhenTappedAround()
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func dismissKeyboard()

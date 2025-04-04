@@ -13,7 +13,6 @@
 - (void)set_int:(int)value for_key:(NSString*_Nonnull)key;
 - (void)set_value:(id _Nonnull )value for_key:(NSString*_Nonnull)key;
 - (id _Nonnull )get_value:(NSString*_Nonnull)key;
-- (NSDictionary*_Nullable)propertiesPlease;
 @end
 
 //extern BOOL UIAccessibilityIsAutoBrightnessEnabled(void);

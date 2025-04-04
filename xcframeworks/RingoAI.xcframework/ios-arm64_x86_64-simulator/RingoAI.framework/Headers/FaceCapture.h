@@ -83,8 +83,9 @@ typedef NSDictionary<NSString*, id> RingoResult;
 
 - (void)override_localizations:(NSDictionary<NSString*,NSString*>* _Nonnull) table;
 - (void)override_help:(NSString* _Nonnull)title message:(NSString* _Nonnull)help;
-- (void)metadata:(NSDictionary<NSString*,NSString*>*_Nonnull) meta;
+- (void)metadata:(NSDictionary<NSString*,id>*_Nonnull) meta;
 - (BOOL)questionnaire:(NSArray<NSNumber* >* _Nonnull) answers;
 - (NSArray<NSString*>*_Nonnull)supportedFamilyIDs;
+- (NSArray<NSString*>*_Nonnull)supportedFamilies;
 
 @end
