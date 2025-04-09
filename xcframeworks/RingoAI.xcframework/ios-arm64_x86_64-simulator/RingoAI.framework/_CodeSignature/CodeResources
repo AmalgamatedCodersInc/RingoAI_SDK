@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/RingoAI-Swift.h</key>
 		<data>
-		9/WIKY0+h5AOCof6oM6GBQ5RA64=
+		74nLM04HdVYm9qwAlfjtNVxRNyg=
 		</data>
 		<key>Headers/RingoAI.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QSJQ6rN6q+3gjwOGMT485iFm/QA=
+		SXbadJiR5x9FKvGjqEyYx8UFcdE=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NjWxNUTMVVsDIuODvMknuaWjLBU=
+		LnlPzDggZbHDkYt5ndymffZJY6g=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PJM5a/ioNfX5E43KqAfiHw6KF/8=
+		njANEbLu8uvFDMzBRjbQbXwyBfQ=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PJM5a/ioNfX5E43KqAfiHw6KF/8=
+		njANEbLu8uvFDMzBRjbQbXwyBfQ=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AJEJpOH1f+ClnZNYYfwBMP80Oio=
+		zl6eW7QmU003MYLh+7NlqXN4wnA=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NjWxNUTMVVsDIuODvMknuaWjLBU=
+		LnlPzDggZbHDkYt5ndymffZJY6g=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		46MxYKgMOWNrZPZnFouJ9QPfmBc=
+		3ymIO31YEcoTEB7bbBeLYgDqkso=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		46MxYKgMOWNrZPZnFouJ9QPfmBc=
+		3ymIO31YEcoTEB7bbBeLYgDqkso=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vd/zJiCA8pmWBiAsyO4eRb4rcTw=
+		EdDk2nkUHyCx4VkT4Yvg5nxKdvs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -237,6 +237,14 @@
 		<key>hybrid_start.mp4</key>
 		<data>
 		3KLsz1gKNwhMx0nyottFobH1LM0=
+		</data>
+		<key>jay_shade_values.json</key>
+		<data>
+		mmCy0dy6yPJLHU9QOY2lKsXZD8I=
+		</data>
+		<key>john_shade_values.json</key>
+		<data>
+		8NBI8sJb5ZhxxAipmpnyyLgrOuw=
 		</data>
 		<key>left_arrow.png</key>
 		<data>
@@ -388,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuYZSzeROTf0FKlTo+1Q/x1efq0detKDwr4lfKC2sRk=
+			nYX163mbntRSBjPhkpDmEIsui963eUaDRARF2D/fp6c=
 			</data>
 		</dict>
 		<key>Headers/RingoAI.h</key>
@@ -451,14 +459,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+5V3a1QJd11ZUvfmVkU0yn0mGOYk7P6WC11t/F0FLw=
+			ubP9i/3F+rlwxoeHg8XoQPuwpHSl3bQ29fAGHiSvp1A=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4PjdhU9pibmiFKWegFAszFisa+QAiVPpGlhd/tZYG8=
+			a/EBvFSKyuXjY0Fv15wB3wuKcl+1i+woksKx5lk0ybw=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -472,28 +480,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4PjdhU9pibmiFKWegFAszFisa+QAiVPpGlhd/tZYG8=
+			a/EBvFSKyuXjY0Fv15wB3wuKcl+1i+woksKx5lk0ybw=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tf1Ito4V7gfiSGCdrIkK4m+zf85Fp6AmrLD2P80z0Vw=
+			Pjlc6d0pmERdZoxYri59RFfThDGP3vSaNVe73JGVC7U=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+5V3a1QJd11ZUvfmVkU0yn0mGOYk7P6WC11t/F0FLw=
+			ubP9i/3F+rlwxoeHg8XoQPuwpHSl3bQ29fAGHiSvp1A=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zK/O0Bo5wHD4yJugOiEDBorKD0Ipvea9yBO9BRdQYto=
+			JipAL+OiyU4LOfaqRoLOZu9TOwY+tmrbSwmRs49J46o=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -507,14 +515,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zK/O0Bo5wHD4yJugOiEDBorKD0Ipvea9yBO9BRdQYto=
+			JipAL+OiyU4LOfaqRoLOZu9TOwY+tmrbSwmRs49J46o=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTU+X7WKZFxSLIv0Y9fpw82uVnmNF0cQw5ixadyHrqA=
+			Z2sv+h7+5Pi1i7Df2/sPr8KETUXFwSX4bchZ0mQyVpQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -673,6 +681,20 @@
 			<key>hash2</key>
 			<data>
 			fEU2eO1WWbXMfw6aSLstShJK7rXI9a22uJEx4MdQrYE=
+			</data>
+		</dict>
+		<key>jay_shade_values.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			92gwiA99JZcoJYX5yx/CEJJgQ1eWVMunYW7YGRpVjjg=
+			</data>
+		</dict>
+		<key>john_shade_values.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hUXeEsiZgSKhNmPbOqFNlL+UEm9+M2Erk4u6YIMHzVQ=
 			</data>
 		</dict>
 		<key>left_arrow.png</key>

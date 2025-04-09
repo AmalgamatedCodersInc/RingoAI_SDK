@@ -1,6 +1,6 @@
 # RingoAI_SDK
 
-Build 2025.04.07
+Build 2025.04.08
 
-• com.mediapipe.tasks.vision crash fix
-• POQ cache clear?
+* oops NaN & Pupil errors fixed
+* rare "Hold Still" latch fixed

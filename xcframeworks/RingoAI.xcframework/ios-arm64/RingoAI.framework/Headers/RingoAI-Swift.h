@@ -498,6 +498,20 @@ SWIFT_CLASS("_TtC7RingoAI12JSONSettings")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC7RingoAI15JayShadeMatcher")
+@interface JayShadeMatcher : ShadeMatcher
+- (NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)uxname SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)shade_json_name SWIFT_WARN_UNUSED_RESULT;
+@end
+
+SWIFT_CLASS("_TtC7RingoAI16JohnShadeMatcher")
+@interface JohnShadeMatcher : ShadeMatcher
+- (NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)uxname SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)shade_json_name SWIFT_WARN_UNUSED_RESULT;
+@end
+
 enum Axis : NSInteger;
 enum Distribution : NSInteger;
 SWIFT_CLASS("_TtC7RingoAI10LayoutView")

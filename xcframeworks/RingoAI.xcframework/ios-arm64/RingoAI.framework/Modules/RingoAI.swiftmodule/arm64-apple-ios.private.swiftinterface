@@ -871,8 +871,9 @@ extension Foundation.Date {
 }
 public func debounce(delay: Foundation.TimeInterval = 1) -> Swift.Bool
 public func dprint_clear(sessionID: Swift.String)
+public func dprint_existing(_ url: Foundation.URL, _ sessionID: Swift.String) -> Foundation.URL
 public func dprint_url(sessionID: Swift.String) -> Foundation.URL
-public func dprint(_ str: Swift.String, log: Foundation.URL? = nil)
+public func dprint(_ str: Swift.String, log: Foundation.URL? = nil, file: Swift.Bool = true)
 extension Swift.Double {
   public var degrees: Swift.Double {
     get
@@ -902,6 +903,18 @@ public func buildDate() -> Foundation.Date
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func drawText(in rect: CoreFoundation.CGRect)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class JayShadeMatcher : RingoAI.ShadeMatcher {
+  @objc override public func name() -> Swift.String
+  @objc override public func uxname() -> Swift.String
+  @objc public func shade_json_name() -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class JohnShadeMatcher : RingoAI.ShadeMatcher {
+  @objc override public func name() -> Swift.String
+  @objc override public func uxname() -> Swift.String
+  @objc public func shade_json_name() -> Swift.String
   @objc deinit
 }
 public struct LabFloat {
