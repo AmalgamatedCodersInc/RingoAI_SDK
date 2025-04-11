@@ -1121,6 +1121,10 @@ public let stackExposureRatiosKey: Swift.String
   @objc deinit
 }
 extension Foundation.NSNotification.Name {
+  public static let kRingoAICameraUp: Foundation.NSNotification.Name
+  public static let kRingoAICameraDown: Foundation.NSNotification.Name
+}
+extension Foundation.NSNotification.Name {
   public static let fcSubmitTask: Foundation.Notification.Name
   public static let fcTaskComplete: Foundation.Notification.Name
   public static let fcManualCapture: Foundation.Notification.Name

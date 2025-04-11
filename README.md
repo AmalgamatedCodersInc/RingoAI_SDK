@@ -1,7 +1,5 @@
 # RingoAI_SDK
 
-Build 2025.04.10
+Build 2025.04.11
 
-* more thermal handling improvements
-* better ambient light checking
-* fixed gridMatch value
+* camUp & camDown Notification
