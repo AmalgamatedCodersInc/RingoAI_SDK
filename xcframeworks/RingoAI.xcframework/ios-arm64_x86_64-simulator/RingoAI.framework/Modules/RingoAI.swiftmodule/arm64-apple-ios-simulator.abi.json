@@ -44677,112 +44677,112 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11505,
+      "offset": 11521,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11543,
+      "offset": 11559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11841,
+      "offset": 11857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 11879,
+      "offset": 11895,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 11909,
+      "offset": 11925,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12526,
+      "offset": 12542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "Array",
-      "offset": 12687,
+      "offset": 12703,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 12884,
+      "offset": 12900,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 12926,
+      "offset": 12942,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 12966,
+      "offset": 12982,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 13007,
+      "offset": 13023,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13722,
+      "offset": 13738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 13792,
+      "offset": 13808,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14251,
+      "offset": 14267,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14309,
+      "offset": 14325,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FCOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14430,
+      "offset": 14446,
       "length": 5,
       "value": "false"
     },
@@ -47470,7 +47470,7 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCStack.swift",
       "kind": "BooleanLiteral",
-      "offset": 23574,
+      "offset": 23670,
       "length": 5,
       "value": "false"
     },
@@ -50956,42 +50956,42 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 30798,
+      "offset": 30837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 30819,
+      "offset": 30858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 32083,
+      "offset": 32122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 32191,
+      "offset": 32230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 32212,
+      "offset": 32251,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCapture\/FaceCaptureVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 32569,
+      "offset": 32608,
       "length": 5,
       "value": "false"
     },
@@ -51789,42 +51789,42 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "FloatLiteral",
-      "offset": 12160,
+      "offset": 11843,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "StringLiteral",
-      "offset": 15306,
+      "offset": 14989,
       "length": 9,
       "value": "\"app set\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 19432,
+      "offset": 19115,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 20054,
+      "offset": 19737,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 20418,
+      "offset": 20101,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 20683,
+      "offset": 20366,
       "length": 4,
       "value": "true"
     },
