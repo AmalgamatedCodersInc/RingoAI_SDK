@@ -1,8 +1,8 @@
 {
-	"modification_date": 1743390756,
+	"modification_date": 1744414761,
 	"dev_settings": {
 		"reupload":false,
-		"saveTempFiles": true,
+		"saveTempFiles": false,
 		"pauseAWS": false,
 		"postNotifications": false,
 		"bgMode": 0,
