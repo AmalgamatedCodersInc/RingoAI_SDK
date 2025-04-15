@@ -918,10 +918,6 @@ SWIFT_CLASS("_TtC7RingoAI9StackView")
 - (void)revertLatentSubs;
 @end
 
-@interface UIView (SWIFT_EXTENSION(RingoAI))
-- (void)localizeWithBundle:(NSBundle * _Nullable)bundle;
-@end
-
 @interface UIViewController (SWIFT_EXTENSION(RingoAI))
 - (void)localizeView;
 @end
@@ -1894,10 +1890,6 @@ SWIFT_CLASS("_TtC7RingoAI9StackView")
 - (void)lockLatent;
 - (void)lockLatentSubs;
 - (void)revertLatentSubs;
-@end
-
-@interface UIView (SWIFT_EXTENSION(RingoAI))
-- (void)localizeWithBundle:(NSBundle * _Nullable)bundle;
 @end
 
 @interface UIViewController (SWIFT_EXTENSION(RingoAI))

@@ -1,5 +1,5 @@
 # RingoAI_SDK
 
-Build 2025.04.11
+Build 2025.04.15
 
-* camUp & camDown Notification
+* privatized misc extensions

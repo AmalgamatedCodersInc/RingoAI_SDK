@@ -124,144 +124,16 @@ extension UIKit.UIViewController {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func localizeView()
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var firstResponder: UIKit.UIView? {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency public var size: CoreFoundation.CGSize {
-    get
-    set(size)
-  }
-  @_Concurrency.MainActor @preconcurrency public var origin: CoreFoundation.CGPoint {
-    get
-    set(origin)
-  }
-  @_Concurrency.MainActor @preconcurrency public var topLeft: CoreFoundation.CGPoint {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var bottomLeft: CoreFoundation.CGPoint {
-    get
-    set(bottomLeft)
-  }
-  @_Concurrency.MainActor @preconcurrency public var bottomRight: CoreFoundation.CGPoint {
-    get
-    set(bottomRight)
-  }
-  @_Concurrency.MainActor @preconcurrency public var topRight: CoreFoundation.CGPoint {
-    get
-    set(topRight)
-  }
-  @_Concurrency.MainActor @preconcurrency public var x: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var y: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var width: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var height: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var right: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var bottom: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var midX: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var midY: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var leftEdge: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var topEdge: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var rightEdge: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var bottomEdge: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var cornerRadii: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var borderColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var borderWidth: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  public struct UIViewShadow {
-  }
-  @_Concurrency.MainActor @preconcurrency public var shadow: UIKit.UIView.UIViewShadow {
-    get
-    set(shadow)
-  }
-  @_Concurrency.MainActor @preconcurrency public var shadowRadius: CoreFoundation.CGFloat {
-    get
-    set(shadowRadius)
-  }
-  @_Concurrency.MainActor @preconcurrency public var shadowOpacity: Swift.Float {
-    get
-    set(shadowOpacity)
-  }
-  @_Concurrency.MainActor @preconcurrency public var shadowOffset_: CoreFoundation.CGSize {
-    get
-    set(shadowOffset)
-  }
-  @_Concurrency.MainActor @preconcurrency public var shadowColor: UIKit.UIColor {
-    get
-    set(shadowColor)
-  }
-  @_Concurrency.MainActor @preconcurrency public func standardShadow()
-  @_Concurrency.MainActor @preconcurrency public func clipToCircle()
-  @_Concurrency.MainActor @preconcurrency public func clipToPill()
-  @_Concurrency.MainActor @preconcurrency public func sizeWidthToFit()
-  @_Concurrency.MainActor @preconcurrency public func sizeHeightToFit()
   #warning("COMPLETE THIS")
-  @_Concurrency.MainActor @preconcurrency public func magic(thing: () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func centerInSuperview()
-  @_Concurrency.MainActor @preconcurrency public func positionInSuperview(px: CoreFoundation.CGFloat, py: CoreFoundation.CGFloat, margins: CoreFoundation.CGFloat = 0.0)
-  @_Concurrency.MainActor @preconcurrency public func fitInSuperview(pw: CoreFoundation.CGFloat = 1.0, ph: CoreFoundation.CGFloat = 1.0, wconst: CoreFoundation.CGFloat = 0.0, hconst: CoreFoundation.CGFloat = 0.0)
-  @_Concurrency.MainActor @preconcurrency public func positionInSuperview(px: CoreFoundation.CGFloat, py: CoreFoundation.CGFloat, xnudge: CoreFoundation.CGFloat = 0.0, ynudge: CoreFoundation.CGFloat = 0.0, margins: CoreFoundation.CGFloat = 0.0)
-  @_Concurrency.MainActor @preconcurrency public func subviewsOfClass(vClass: Swift.AnyClass) -> [UIKit.UIView]?
-  @_Concurrency.MainActor @preconcurrency public var slowAlpha: CoreFoundation.CGFloat {
-    get
-    set(slowAlpha)
-  }
-  @_Concurrency.MainActor @preconcurrency public func opacityGradient()
-  @_Concurrency.MainActor @preconcurrency public func vColorGradient(first: UIKit.UIColor, second: UIKit.UIColor)
-  @_Concurrency.MainActor @preconcurrency public func synchronize()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func localize(bundle: Foundation.Bundle? = nil)
 }
 extension UIKit.UILabel {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
 }
 extension UIKit.UITextField {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
 }
 extension UIKit.UIButton {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
 }
 extension UIKit.UIColor {
   @objc public static func appColor() -> UIKit.UIColor
@@ -995,32 +867,6 @@ extension Foundation.NSNotification.Name {
 @_hasMissingDesignatedInitializers @objc open class GridGroup : ObjectiveC.NSObject {
   @objc deinit
 }
-extension CoreFoundation.CGRect {
-  public var topLeft: CoreFoundation.CGPoint {
-    get
-    set(value)
-  }
-  public var topRight: CoreFoundation.CGPoint {
-    get
-    set(value)
-  }
-  public var bottomLeft: CoreFoundation.CGPoint {
-    get
-    set(value)
-  }
-  public var bottomRight: CoreFoundation.CGPoint {
-    get
-    set(value)
-  }
-  public var center: CoreFoundation.CGPoint {
-    get
-    set(value)
-  }
-}
-extension CoreFoundation.CGPoint {
-  public func distance(_ pt: CoreFoundation.CGPoint) -> CoreFoundation.CGFloat
-  public func angle(_ pt: CoreFoundation.CGPoint) -> CoreFoundation.CGFloat
-}
 extension UIKit.UIButton {
   @_Concurrency.MainActor @preconcurrency public func style_rounded_white(fit: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency public func style_rounded_black(fit: Swift.Bool = false)
@@ -1352,11 +1198,6 @@ extension Foundation.NSNotification.Name {
 }
 extension RingoAI.FaceCaptureSW {
   @objc dynamic public func preflightRequirements() -> [Swift.String : Swift.String]?
-}
-extension Foundation.Data {
-  public var utf8String: Swift.String? {
-    get
-  }
 }
 extension RingoAI.LayoutView.Axis : Swift.Equatable {}
 extension RingoAI.LayoutView.Axis : Swift.Hashable {}

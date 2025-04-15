@@ -3108,7 +3108,7 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
       "kind": "BooleanLiteral",
-      "offset": 680,
+      "offset": 681,
       "length": 5,
       "value": "false"
     },
@@ -3164,56 +3164,56 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 4845,
+      "offset": 4846,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 4969,
+      "offset": 4970,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 4988,
+      "offset": 4989,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 5011,
+      "offset": 5012,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 5033,
+      "offset": 5034,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 5239,
+      "offset": 5240,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 5262,
+      "offset": 5263,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
-      "offset": 5286,
+      "offset": 5287,
       "length": 3,
       "value": "0.0"
     }
