@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ProcessingViewController",
-        "printedName": "ProcessingViewController",
+        "name": "eProcessingVC",
+        "printedName": "eProcessingVC",
         "children": [
           {
             "kind": "Function",
@@ -31,8 +31,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)viewDidLoad",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC11viewDidLoadyyF",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)viewDidLoad",
+            "mangledName": "$s10elfSupport13eProcessingVCC11viewDidLoadyyF",
             "moduleName": "elfSupport",
             "overriding": true,
             "objc_name": "viewDidLoad",
@@ -58,8 +58,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)viewWillLayoutSubviews",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC22viewWillLayoutSubviewsyyF",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)viewWillLayoutSubviews",
+            "mangledName": "$s10elfSupport13eProcessingVCC22viewWillLayoutSubviewsyyF",
             "moduleName": "elfSupport",
             "overriding": true,
             "objc_name": "viewWillLayoutSubviews",
@@ -91,8 +91,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)viewWillAppear:",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC14viewWillAppearyySbF",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)viewWillAppear:",
+            "mangledName": "$s10elfSupport13eProcessingVCC14viewWillAppearyySbF",
             "moduleName": "elfSupport",
             "overriding": true,
             "objc_name": "viewWillAppear:",
@@ -124,8 +124,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)viewWillDisappear:",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC17viewWillDisappearyySbF",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)viewWillDisappear:",
+            "mangledName": "$s10elfSupport13eProcessingVCC17viewWillDisappearyySbF",
             "moduleName": "elfSupport",
             "overriding": true,
             "objc_name": "viewWillDisappear:",
@@ -146,9 +146,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ProcessingViewController",
-                "printedName": "elfSupport.ProcessingViewController",
-                "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController"
+                "name": "eProcessingVC",
+                "printedName": "elfSupport.eProcessingVC",
+                "usr": "c:@M@elfSupport@objc(cs)eProcessingVC"
               },
               {
                 "kind": "TypeNominal",
@@ -180,8 +180,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)initWithNibName:bundle:",
+            "mangledName": "$s10elfSupport13eProcessingVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
             "moduleName": "elfSupport",
             "overriding": true,
             "implicit": true,
@@ -203,13 +203,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "elfSupport.ProcessingViewController?",
+                "printedName": "elfSupport.eProcessingVC?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProcessingViewController",
-                    "printedName": "elfSupport.ProcessingViewController",
-                    "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController"
+                    "name": "eProcessingVC",
+                    "printedName": "elfSupport.eProcessingVC",
+                    "usr": "c:@M@elfSupport@objc(cs)eProcessingVC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -222,8 +222,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController(im)initWithCoder:",
-            "mangledName": "$s10elfSupport24ProcessingViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "usr": "c:@M@elfSupport@objc(cs)eProcessingVC(im)initWithCoder:",
+            "mangledName": "$s10elfSupport13eProcessingVCC5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "elfSupport",
             "overriding": true,
             "implicit": true,
@@ -239,8 +239,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@elfSupport@objc(cs)ProcessingViewController",
-        "mangledName": "$s10elfSupport24ProcessingViewControllerC",
+        "usr": "c:@M@elfSupport@objc(cs)eProcessingVC",
+        "mangledName": "$s10elfSupport13eProcessingVCC",
         "moduleName": "elfSupport",
         "declAttributes": [
           "Preconcurrency",
@@ -2686,93 +2686,93 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "FloatLiteral",
-      "offset": 267,
+      "offset": 256,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 400,
+      "offset": 389,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 561,
+      "offset": 550,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 571,
       "length": 15,
       "value": "\"$proc.success\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 656,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 707,
+      "offset": 696,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 736,
+      "offset": 725,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 938,
+      "offset": 927,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 948,
       "length": 12,
       "value": "\"$proc.prep\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1049,
+      "offset": 1038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1119,
+      "offset": 1108,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1190,
+      "offset": 1179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/RingoAI\/myskin_ios_ELF\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/eProcessingVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1228,
+      "offset": 1217,
       "length": 3,
       "value": "0.8"
     },
