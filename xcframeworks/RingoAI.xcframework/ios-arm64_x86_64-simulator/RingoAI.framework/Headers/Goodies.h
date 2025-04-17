@@ -32,6 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
 extern "C" {
 #endif
 void getRGBAfromCIImage(CIImage* _Nonnull img, void (^ _Nonnull callback)(UInt32* _Nonnull buffer, size_t width, size_t height, size_t rowbytes));
+void getRGBchunk(UInt32* buffer, size_t width, size_t height, size_t stride,
+				 size_t x1, size_t y1, size_t x2, size_t y2,
+				 UInt8* r, UInt8* g, UInt8* b) ;
+
 #if __cplusplus
 }
 #endif

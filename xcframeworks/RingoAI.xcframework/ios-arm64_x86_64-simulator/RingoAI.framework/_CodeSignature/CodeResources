@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/Goodies.h</key>
 		<data>
-		gxias+pagaZkQERdCqpag+FvY/g=
+		ylXU89W/PVHNNXqF9BKUMBKK7u8=
 		</data>
 		<key>Headers/GyroHelper.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EH4rgOoMGG9maw1z2Mku+IK5594=
+		3fVc4SyK5h6EuGJhLtqORzUj2Ew=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		A7Z5INJTloI+ANm2jpFCrzMLL0I=
+		upovEDVENzPjKumTIwsW17h/39w=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Ba4E1vZq1hED4wmrpbQAWx4ozo=
+		oS+Zd7PsHBryfJzLSogMz+NdW8Q=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		A7Z5INJTloI+ANm2jpFCrzMLL0I=
+		upovEDVENzPjKumTIwsW17h/39w=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nuqn5spiYMijJqDc+tiA5Q375J0=
+		Z5JkSjQh7ny+ezAk9i2h44w0IKw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -215,7 +215,7 @@
 		</dict>
 		<key>expisotable.json</key>
 		<data>
-		/YEGsFUFGsz5N4/M9T01Lf1cz6k=
+		v2NXTEEL5OozgSxZyowuzC4Bcvo=
 		</data>
 		<key>face_landmarker.task</key>
 		<data>
@@ -375,7 +375,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q1zGtOJSXghgzr5GT9sb3LS1+D91jFmLvF5I0d3KwQM=
+			t18SRphYPrTDBD+Wk2qj22aO3vVapLziXyjPnW1MRu8=
 			</data>
 		</dict>
 		<key>Headers/GyroHelper.h</key>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KCZay6wroedEYE8BUaEHmq+Ij2Ja57Am9XsaRGIKWT4=
+			ndLr+V5B6jK+1BsNo7f5pwgxzFgJ+ynWrhR8NjGPbbY=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -487,14 +487,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bee5bFH9sXW1Kry1N05UtV3PnN97FrvG1lzmCFcnzv0=
+			6nobjDceOfHcn6CfQUzaszmfztAqWFjHUSDg2pqiDAM=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KCZay6wroedEYE8BUaEHmq+Ij2Ja57Am9XsaRGIKWT4=
+			ndLr+V5B6jK+1BsNo7f5pwgxzFgJ+ynWrhR8NjGPbbY=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -522,7 +522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6x1BckqBuPXBqyhFulWUWpU6EBl2+2rkZdnvmex1DDQ=
+			xpO08+WwpzYngOl53PcRreNcB5BJjbI201NK2gsylTs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -650,7 +650,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wc1hDvzFOFGyOAQDswMkMZfcivU1oANUYjPjnz6eHzk=
+			18pex6V7w2QL6rYOxlZbkvxu2mhvRGlMLNepi8asWok=
 			</data>
 		</dict>
 		<key>face_landmarker.task</key>
