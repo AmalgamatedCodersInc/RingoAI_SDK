@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wey0aJMcoAMorjvtNdqgweoH3NE=
+		9FFpbe9hITSjyxDj3mK0pXPPCNU=
 		</data>
 		<key>Modules/RingoAISupport.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/RingoAISupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U1qBoR+4OEADmykgES6BFHixMtw=
+		RfIeHR5Ml90RJZ/1r210/Nrf2J0=
 		</data>
 		<key>Modules/RingoAISupport.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/RingoAISupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lJw5gbY40pH28x+54VCCAGJFFnw=
+		Daqzl5cJrJQwVfKuXKtqQFk4eag=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ao++1XchkP0/xGwsNgby+ND9tP/DGD2g5IQpri7mr8Y=
+			uLfsahoFbawxUVstc2sATlZNO4IeAAl17Gwq640AVVE=
 			</data>
 		</dict>
 		<key>Modules/RingoAISupport.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e+YUvEnGC+8AszuC8zdlBpAUlSMPto52a5Mn0uaN3cA=
+			rvPUpMr9XJ4AUUYulv/IJVwmeGtwhiltdffHv0e8tGg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

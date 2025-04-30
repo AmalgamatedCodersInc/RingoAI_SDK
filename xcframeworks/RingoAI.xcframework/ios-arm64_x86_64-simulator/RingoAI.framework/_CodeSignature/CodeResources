@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3fVc4SyK5h6EuGJhLtqORzUj2Ew=
+		xE9Rd5NPcOR6YzeE1boGE4TfIZg=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		upovEDVENzPjKumTIwsW17h/39w=
+		wu1sJqSY1dPUpDl5Y0lKU4GPpKg=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oS+Zd7PsHBryfJzLSogMz+NdW8Q=
+		c8FjNOi/NrY+Clg4kExb4KyBJY0=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		upovEDVENzPjKumTIwsW17h/39w=
+		wu1sJqSY1dPUpDl5Y0lKU4GPpKg=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z5JkSjQh7ny+ezAk9i2h44w0IKw=
+		A1EXPiYnaLzVViVK2KAq5zPzwYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ndLr+V5B6jK+1BsNo7f5pwgxzFgJ+ynWrhR8NjGPbbY=
+			jrQKe7T2+EmwdVZOD4Y2FkbEBlQyhNeFJF31k85Wu30=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -487,14 +487,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6nobjDceOfHcn6CfQUzaszmfztAqWFjHUSDg2pqiDAM=
+			mRUMP9rQAqUIMZjUDIh8hqagYWYcDkVQrOMrwQp36uM=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ndLr+V5B6jK+1BsNo7f5pwgxzFgJ+ynWrhR8NjGPbbY=
+			jrQKe7T2+EmwdVZOD4Y2FkbEBlQyhNeFJF31k85Wu30=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -522,7 +522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpO08+WwpzYngOl53PcRreNcB5BJjbI201NK2gsylTs=
+			iG9dvc/xrg7X8xNl9kqdW5u8Gj+pfRiCuN3w3JPOLvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
