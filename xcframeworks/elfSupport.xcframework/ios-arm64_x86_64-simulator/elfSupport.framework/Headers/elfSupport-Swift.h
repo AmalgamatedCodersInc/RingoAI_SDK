@@ -304,6 +304,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+SWIFT_CLASS("_TtC10elfSupport24ProcessingViewController")
+@interface ProcessingViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillLayoutSubviews;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @interface UIButton (SWIFT_EXTENSION(elfSupport))
 - (void)localize;
 @end
@@ -330,19 +343,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @interface UIViewController (SWIFT_EXTENSION(elfSupport))
 + (nullable instancetype)xfwcontroller SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-SWIFT_CLASS("_TtC10elfSupport13eProcessingVC")
-@interface eProcessingVC : UIViewController
-- (void)viewDidLoad;
-- (void)viewWillLayoutSubviews;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
@@ -659,6 +659,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+SWIFT_CLASS("_TtC10elfSupport24ProcessingViewController")
+@interface ProcessingViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillLayoutSubviews;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @interface UIButton (SWIFT_EXTENSION(elfSupport))
 - (void)localize;
 @end
@@ -685,19 +698,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @interface UIViewController (SWIFT_EXTENSION(elfSupport))
 + (nullable instancetype)xfwcontroller SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-SWIFT_CLASS("_TtC10elfSupport13eProcessingVC")
-@interface eProcessingVC : UIViewController
-- (void)viewDidLoad;
-- (void)viewWillLayoutSubviews;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif

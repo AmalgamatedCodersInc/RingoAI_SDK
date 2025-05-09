@@ -573,6 +573,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumb
 + (NSArray<NSNumber *> * _Nonnull)uxLminmax SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumber *> * _Nonnull uxHminmax;)
 + (NSArray<NSNumber *> * _Nonnull)uxHminmax SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSInteger valN;)
++ (NSInteger)valN SWIFT_WARN_UNUSED_RESULT;
++ (void)setValN:(NSInteger)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLcut;)
++ (double)valLcut SWIFT_WARN_UNUSED_RESULT;
++ (void)setValLcut:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLrange;)
++ (double)valLrange SWIFT_WARN_UNUSED_RESULT;
++ (void)setValLrange:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double blownOutThreshold;)
++ (double)blownOutThreshold SWIFT_WARN_UNUSED_RESULT;
++ (void)setBlownOutThreshold:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull ROI_hist_thresholds;)
 + (NSArray<NSNumber *> * _Nonnull)ROI_hist_thresholds SWIFT_WARN_UNUSED_RESULT;
 + (void)setROI_hist_thresholds:(NSArray<NSNumber *> * _Nonnull)newValue;
@@ -585,12 +597,24 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBBStackExposureRati
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWWStackExposureRatio;)
 + (double)lastWWStackExposureRatio SWIFT_WARN_UNUSED_RESULT;
 + (void)setLastWWStackExposureRatio:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBB2StackExposureRatio;)
++ (double)lastBB2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
++ (void)setLastBB2StackExposureRatio:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWW2StackExposureRatio;)
++ (double)lastWW2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
++ (void)setLastWW2StackExposureRatio:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin;)
 + (double)stackExposureRatioMin SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMin:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax;)
 + (double)stackExposureRatioMax SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMax:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin2;)
++ (double)stackExposureRatioMin2 SWIFT_WARN_UNUSED_RESULT;
++ (void)setStackExposureRatioMin2:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax2;)
++ (double)stackExposureRatioMax2 SWIFT_WARN_UNUSED_RESULT;
++ (void)setStackExposureRatioMax2:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double pupilMinValue;)
 + (double)pupilMinValue SWIFT_WARN_UNUSED_RESULT;
 + (void)setPupilMinValue:(double)newValue;
@@ -606,6 +630,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double appBrightness;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackBrightness;)
 + (double)stackBrightness SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackBrightness:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double caveValue;)
++ (double)caveValue SWIFT_WARN_UNUSED_RESULT;
++ (void)setCaveValue:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double antiCaveValue;)
++ (double)antiCaveValue SWIFT_WARN_UNUSED_RESULT;
++ (void)setAntiCaveValue:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double max_pupil_depth_diff;)
 + (double)max_pupil_depth_diff SWIFT_WARN_UNUSED_RESULT;
 + (void)setMax_pupil_depth_diff:(double)newValue;
@@ -705,6 +735,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double maxEXPISO;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hud;)
 + (BOOL)hud SWIFT_WARN_UNUSED_RESULT;
 + (void)setHud:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL engineLights;)
++ (BOOL)engineLights SWIFT_WARN_UNUSED_RESULT;
++ (void)setEngineLights:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL capture_mosaic;)
 + (BOOL)capture_mosaic SWIFT_WARN_UNUSED_RESULT;
 + (void)setCapture_mosaic:(BOOL)newValue;
