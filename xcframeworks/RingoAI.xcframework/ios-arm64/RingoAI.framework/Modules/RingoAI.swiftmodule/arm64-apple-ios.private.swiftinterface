@@ -233,6 +233,7 @@ extension Swift.Comparable {
   public static func TRACE() -> RingoAI.WebService
   public init(_ method: RingoAI.HTTPMethod)
   public func start(callback: @escaping (RingoAI.JSON?, (any Swift.Error)?) -> Swift.Void)
+  public func start(download: Foundation.URL, contentType: Swift.String, callback: @escaping ((any Swift.Error)?) -> Swift.Void)
   public func cancel()
   @objc deinit
 }
@@ -289,6 +290,22 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
   @objc public static var uxHminmax: [Swift.Float] {
     @objc get
   }
+  @objc public static var valN: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var valLcut: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var valLrange: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var blownOutThreshold: Swift.Double {
+    @objc get
+    @objc set
+  }
   @objc public static var ROI_hist_thresholds: [Swift.Int] {
     @objc get
     @objc set
@@ -305,11 +322,27 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     @objc get
     @objc set
   }
+  @objc public static var lastBB2StackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var lastWW2StackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
   @objc public static var stackExposureRatioMin: Swift.Double {
     @objc get
     @objc set
   }
   @objc public static var stackExposureRatioMax: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMin2: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMax2: Swift.Double {
     @objc get
     @objc set
   }
@@ -330,6 +363,14 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     @objc set
   }
   @objc public static var stackBrightness: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var caveValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var antiCaveValue: Swift.Double {
     @objc get
     @objc set
   }
@@ -472,6 +513,10 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     @objc set
   }
   @objc public static var hud: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var engineLights: Swift.Bool {
     @objc get
     @objc set
   }
@@ -738,6 +783,14 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
 }
 extension Foundation.Date {
   public var epochMS: Swift.UInt64 {
+    get
+  }
+  public var local: Swift.String {
+    get
+  }
+}
+extension Foundation.NSDate {
+  public var local: Swift.String {
     get
   }
 }
