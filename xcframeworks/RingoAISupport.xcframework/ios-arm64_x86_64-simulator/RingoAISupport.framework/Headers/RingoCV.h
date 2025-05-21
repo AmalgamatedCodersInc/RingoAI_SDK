@@ -6,15 +6,6 @@
 //
 #include <TargetConditionals.h> // required in Xcode 8+
 #define RINGO_CV 1
-typedef void* IMAGE;
-typedef void* CGPOINT;
-#ifdef __cplusplus
-extern "C" {
-#endif
-bool ringo_glasses(IMAGE ciimg, CGPOINT l_eye, CGPOINT r_eye, double glassesConstant);
-#ifdef __cplusplus
-}
-#endif
 
 #ifdef __cplusplus
 

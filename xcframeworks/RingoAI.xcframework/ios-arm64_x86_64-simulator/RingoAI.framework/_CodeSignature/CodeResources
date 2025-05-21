@@ -18,7 +18,7 @@
 		</data>
 		<key>DevSettingsVC.nib</key>
 		<data>
-		372f0jUFFjFQwu/6JvVIoN68uGU=
+		avGYyC3B72TNitekIN7idvJPDyI=
 		</data>
 		<key>FaceCaptureVC.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/RingoAI-Swift.h</key>
 		<data>
-		I9HgLI9Ec4e5UMACfqsgc0HFL1o=
+		M8EX+ddns/2yuUkrzenrvJzu+Ek=
 		</data>
 		<key>Headers/RingoAI.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9ismUY7RPHoOBgNzRbPEmHDhAMg=
+		JfQiJ4X9XIcNMAlMTS+P2SxsHU0=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		857VNk741U8P2V5XEaQ69rvqq6M=
+		/uSOAPZy9UHsBqDZbnCavpD/Pgo=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		np0Y7WfBSk05/49ci22t7tW5iSY=
+		EOyH8aSAldZAOAPRyIwY7nctIKc=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		np0Y7WfBSk05/49ci22t7tW5iSY=
+		EOyH8aSAldZAOAPRyIwY7nctIKc=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+9Ab2x3RJabaNTnH1rGci7Ow22M=
+		onaNDbPkQpMNP4K/lFFOLXNru2I=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		857VNk741U8P2V5XEaQ69rvqq6M=
+		/uSOAPZy9UHsBqDZbnCavpD/Pgo=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3gzRebdeGahV3uUeFPqfCugw+24=
+		7pzpxgkK+Ysj0wEbtWmdpGzrVrs=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3gzRebdeGahV3uUeFPqfCugw+24=
+		7pzpxgkK+Ysj0wEbtWmdpGzrVrs=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pbsjLzzvub1e1ejUBU8M7gSLME8=
+		bPUdx1rsXmvEgcfek3R+NT1MFis=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>SDK_logo_on_b.png</key>
 		<data>
-		YCO5+x7ktfyPawQeQeQPXuKM3wQ=
+		blvEsXq5NuMtBUVqZ8bmudptILc=
 		</data>
 		<key>SDK_logo_on_w.png</key>
 		<data>
-		9u68KX1Rn00WJTpanl8Nrh7ujFo=
+		o6L+zD/y/Nd9cQvfPfw9bK1GCtg=
 		</data>
 		<key>UnitTestPickerVC.nib</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>clarins_def_settings.json</key>
 		<data>
-		S9i7xuVKH709BRJspx1OhkM3mAE=
+		mMVXfM4IhoosbYloB7QWcig4oOs=
 		</data>
 		<key>clarins_shade_values.json</key>
 		<data>
@@ -194,19 +194,19 @@
 		</data>
 		<key>elf_def_settings.json</key>
 		<data>
-		SBYUQPSZA6tMWbqYUhXEu45rQRA=
+		mVUmZ9fhHd6cOCChRAUH0ELXC4Y=
 		</data>
 		<key>elf_hyb_settings.json</key>
 		<data>
-		VTpdgpFMpEXjnyUzGnbxjXkmvt8=
+		vCWn0ZXWJwmga0Z1l3aR3IrEdzY=
 		</data>
 		<key>elf_man_settings.json</key>
 		<data>
-		/A+VXaXvykIPLEEtgxDjpkUcAmM=
+		YWD6JkWawGNaiZ2hQ+ytn1M1RCQ=
 		</data>
 		<key>elf_shade_values.json</key>
 		<data>
-		21ItszAGu1n0SNlYS1410/VongU=
+		wQYSgsrEMvHkB748NRiDI9BTYfI=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -219,7 +219,7 @@
 		</dict>
 		<key>expisotable.json</key>
 		<data>
-		nzHm+8J+Yofp9DWSu3URkCZ4DTg=
+		v2NXTEEL5OozgSxZyowuzC4Bcvo=
 		</data>
 		<key>face_landmarker.task</key>
 		<data>
@@ -256,11 +256,11 @@
 		</data>
 		<key>phoneModel.json</key>
 		<data>
-		9jjKHHxUSH74Vq+jnbJ836alUeQ=
+		Lz8MkE/+X/GbpeHQZZ/hNPgXcCY=
 		</data>
 		<key>phone_to_phone.json</key>
 		<data>
-		P9UbVyMv1op1gnq6AYIelaUxe0Y=
+		bYhFQJSdZb/Q8AmmogiBncfH7jw=
 		</data>
 		<key>preconfig_0_0.png</key>
 		<data>
@@ -330,7 +330,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9RQivJ9SVw0nbq4BBCJX52s4bC7FF9MhFXADP01Iqg=
+			UnHBH4TmXeV2skVhSdWid7i3HKNAvcX+EwDuVbGlZ4U=
 			</data>
 		</dict>
 		<key>FaceCaptureVC.nib</key>
@@ -400,7 +400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WZE10dlLoNRCLo/R6pbUVyhZ9q2yzuH7BQ1ErgxPnPE=
+			QsO0MT88Gbe6yY3g0qeZPaZ/W7ypYkDUpfVlRQ/Wmog=
 			</data>
 		</dict>
 		<key>Headers/RingoAI.h</key>
@@ -463,14 +463,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			36jwmuWbnKyJM60ZTQde608J524/i74kAQvlxG7oPU4=
+			CWVTapuQDQQn96RmUympE8jsQ6pUqib2X4qENMfDQzc=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGA0eCn8B0XH35MVSt84HwtJl2Bfr/YAOZARgR6GBgI=
+			tWlSHN459G6LDpRLtlewHJo5+qMaEiVASwrbsfHwk5g=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -484,28 +484,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGA0eCn8B0XH35MVSt84HwtJl2Bfr/YAOZARgR6GBgI=
+			tWlSHN459G6LDpRLtlewHJo5+qMaEiVASwrbsfHwk5g=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yhMrxPVATuDig9h1jlAjqnJT7NIuFyK8v7hGQrEBUZ8=
+			F+aEYGN3Bfk993n15i6rvOko0Mwz462bkBnI4hZsftM=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			36jwmuWbnKyJM60ZTQde608J524/i74kAQvlxG7oPU4=
+			CWVTapuQDQQn96RmUympE8jsQ6pUqib2X4qENMfDQzc=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iOP5CXRXQZGW3b0l5IKoxeir6ILnn/qpZeGTZw1SzKM=
+			C1U/nkwbVi0rB+dIh7AmFefQc/ukFFFBZ0Bzxkfu03M=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -519,14 +519,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iOP5CXRXQZGW3b0l5IKoxeir6ILnn/qpZeGTZw1SzKM=
+			C1U/nkwbVi0rB+dIh7AmFefQc/ukFFFBZ0Bzxkfu03M=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2ecQLhLGUXM33d0kBZAN6l9I1ymQmKHU4/6A4aio88=
+			G4916xrN/VhI2Sj79mS9xhwH46n7CYdkAJ/1ecXJrAo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -568,14 +568,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d0vldSElwwJJOsneQWTnII+SGiz4v+q57sLL1G29m+I=
+			76zxfHnh5spFGT/MN34WD2HHDeTz973uDPL4eeHrcmM=
 			</data>
 		</dict>
 		<key>SDK_logo_on_w.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKbMmLapG6eyp1lNEkpKJu3ghxprEnJTUFMkUL3caok=
+			jbVvapM/OorW+LNacdeh5i3QKJxBItjv27AzHAW1sj8=
 			</data>
 		</dict>
 		<key>UnitTestPickerVC.nib</key>
@@ -589,7 +589,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFuqrNfgsiYwFoT4PqlsI7zoDr8G9PA7Sv6oGiM7ADs=
+			9y70UDFWK9PodLz3YEg03u/J7LV/9xSXsmDex0uBwV8=
 			</data>
 		</dict>
 		<key>clarins_shade_values.json</key>
@@ -624,28 +624,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6a5uuXCfUYEF/zm1fRStAy3TPSGhQRrTsooaqS2S/iI=
+			WtuXOiDor/GSY8Hc5lNQuDQ/ILZUQ57S8HmPXeMi7RA=
 			</data>
 		</dict>
 		<key>elf_hyb_settings.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITQ7W2NxA5ynzSkhQe+yR14yFcTQ2ZFtI2LxDPUIIJQ=
+			kXFSnd08asMplv/iSijGK/N5EdxtL8dB9Ln7F+DLTcc=
 			</data>
 		</dict>
 		<key>elf_man_settings.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJS4cUpv3cb8J3LhOLinZxgYNvBrXdZ6Sg2ammrhPrc=
+			h95mEveL4NRz2le1E16DqHWLc2aHiiE7kIliaYNh/yQ=
 			</data>
 		</dict>
 		<key>elf_shade_values.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BydoPZnKZl0xcZPED0JSJYpp+mfWOcMNcSj1Qeup2qs=
+			zlENT28SQxg/j1fUCCfD6+zD3Kgt1DQjLZR4UsN99Po=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -661,7 +661,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vMOTKSqjPzr9tdf4SzOt8RgQR2QRlRFmRSjk2GYPKxQ=
+			18pex6V7w2QL6rYOxlZbkvxu2mhvRGlMLNepi8asWok=
 			</data>
 		</dict>
 		<key>face_landmarker.task</key>
@@ -719,14 +719,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WauVukc3Jd2IsI5JXM9plONeECFyiSQXAFQ6YRxDwo=
+			/dd6hDyCBYHaVIBdtqVQkjgqVTqwTb3PGAqAfhQdnQU=
 			</data>
 		</dict>
 		<key>phone_to_phone.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SIMT1xKdCZOVN28FavwLTmZpl2xSE8tQmsDFTDm3SR0=
+			Bj4OStDmo8kTKOW+ekDIzQGU8gDAegd7JAXftgJ+FT0=
 			</data>
 		</dict>
 		<key>preconfig_0_0.png</key>
