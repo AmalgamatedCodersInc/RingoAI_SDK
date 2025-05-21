@@ -15,3 +15,5 @@
 @end
 
 extern BOOL launchedCalled;
+
+#import "PocketSVG.h"

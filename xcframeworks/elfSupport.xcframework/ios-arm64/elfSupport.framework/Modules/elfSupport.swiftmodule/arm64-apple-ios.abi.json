@@ -2963,103 +2963,103 @@
       "kind": "IntegerLiteral",
       "offset": 2058,
       "length": 8,
-      "value": "0x63021a"
+      "value": "0xa22137"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2090,
+      "offset": 2121,
       "length": 8,
       "value": "0xd7c0b0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2120,
+      "offset": 2151,
       "length": 8,
       "value": "0xe9e3e1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2149,
+      "offset": 2180,
       "length": 8,
-      "value": "0xd7c0b0"
+      "value": "0x000000"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2178,
+      "offset": 2209,
       "length": 8,
       "value": "0xb40028"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
-      "offset": 2213,
+      "offset": 2244,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
-      "offset": 2332,
+      "offset": 2363,
       "length": 32,
       "value": "[\"elfSupport\", \"clarinsSupport\"]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2498,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 2587,
       "length": 45,
       "value": "\"com.ringoai.sdk.\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2600,
+      "offset": 2631,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2677,
+      "offset": 2708,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2742,
+      "offset": 2773,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 2851,
       "length": 42,
       "value": "\"registerFont \""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2845,
+      "offset": 2876,
       "length": 2,
       "value": "\" in \""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 2892,
       "length": 2,
       "value": "\"\""
     },
@@ -3073,28 +3073,28 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "FloatLiteral",
-      "offset": 4921,
+      "offset": 4952,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 5392,
+      "offset": 5423,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 5762,
+      "offset": 5793,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios_ELF\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 5774,
+      "offset": 5805,
       "length": 2,
       "value": "12"
     },

@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <RingoAISupport/RingoCV.h>
 #import <CoreImage/CoreImage.h>
+#import <CallKit/CallKit.h>
 
 //! Project version number for zipper.
 FOUNDATION_EXPORT double ringoAISupportVersionNumber;

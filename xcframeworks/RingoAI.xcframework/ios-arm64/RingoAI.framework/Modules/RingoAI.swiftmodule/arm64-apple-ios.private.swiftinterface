@@ -7,6 +7,7 @@ import AVKit
 import Accelerate
 import AudioUnit
 import BackgroundTasks
+import CallKit
 import Combine
 import CommonCrypto
 import CoreGraphics
@@ -181,8 +182,8 @@ extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public func attachKeyboard()
   @_Concurrency.MainActor @preconcurrency public func detachKeyboard()
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func keyboard(note: Foundation.Notification)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic open func resizingKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, fRect: CoreFoundation.CGRect, lRect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic open func didResizeKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, rect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func resizingKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, fRect: CoreFoundation.CGRect, lRect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func didResizeKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, rect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
 }
 public func isBetween<T>(a: T, mid: T, b: T) -> Swift.Bool where T : Swift.Comparable
 public func pin<T>(a: T, mid: T, b: T) -> T where T : Swift.Comparable
@@ -284,6 +285,10 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
   public static var capture_height: Swift.Double
   public static var capture_fov: Swift.Double
   public static func applyTaskSettings(_ task: RingoAI.JSON)
+  @objc public static var location: Swift.String {
+    @objc get
+    @objc set
+  }
   @objc public static var uxLminmax: [Swift.Float] {
     @objc get
   }
@@ -513,6 +518,10 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     @objc set
   }
   @objc public static var hud: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var saveThumbnail: Swift.Bool {
     @objc get
     @objc set
   }
@@ -899,14 +908,20 @@ extension Foundation.NSNotification.Name {
   }
   public static func verifyAppBrand()
   public static func update()
+  @objc open var locationNames: [Swift.String] {
+    @objc get
+  }
   @objc open var defaultProduct: Swift.String {
     @objc get
   }
   @objc open var productLines: [Swift.String]
+  @objc open var deepProductLines: [RingoAI.RingoProduct]
   @objc open var familyIDTable: [Swift.String : Swift.String]
   @objc public func name() -> Swift.String
   @objc public func uxname() -> Swift.String
   open func productImage(familyId: Swift.String, shadeId: Swift.String) -> UIKit.UIImage?
+  @objc public func filterMatch(_ result: RingoAI.RingoMatch) -> RingoAI.RingoMatch
+  @objc public func productAndSKUinStore(product: Swift.String, SKU: Swift.String) -> Swift.Bool
   @objc public func metaForProduct(_ product: Swift.String) -> [Swift.String : Swift.String]?
   @objc public func translate_shade(product: Swift.String, shade: Swift.String) -> Swift.String
   @objc public func familyIDfromProduct(_ product: Swift.String) -> Swift.String?
@@ -1027,6 +1042,7 @@ extension Foundation.NSNotification.Name {
   public static let fcSubmitTask: Foundation.Notification.Name
   public static let fcTaskComplete: Foundation.Notification.Name
   public static let fcManualCapture: Foundation.Notification.Name
+  public static let fcCaptureInterruptus: Foundation.Notification.Name
 }
 public struct CaptureExposure {
 }
@@ -1086,6 +1102,7 @@ public typealias JSON = [Swift.String : Any]
 public typealias HTTPParameters = [Swift.String : Any]
 extension Foundation.NSString {
   @objc dynamic public func nslocalize() -> Swift.String
+  @objc dynamic public func localizefw() -> Swift.String
 }
 extension Swift.String {
   public static var localizeTable: [Swift.String : Swift.String]
@@ -1225,11 +1242,13 @@ extension Swift.Dictionary {
 public var bwAutoExposureTwo: Swift.Bool
 public var lastHintAmbient: Swift.Bool
 @_inheritsConvenienceInitializers @objc open class FaceCaptureSW : ObjectiveC.NSObject {
+  @objc public var familyID: Swift.String
   @objc public static var shared: RingoAI.FaceCaptureSW
   @objc public static func resultsExited()
   @objc public static func override_help(_ title: Swift.String, _ help: Swift.String)
   @objc public static func override_localizations(_ table: [Swift.String : Swift.String])
   @objc public static func metadata(_ meta_: [Swift.String : Any])
+  @objc public func defaultFamilyID() -> Swift.String
   @objc public func FCquestionnaire(_ answers: [Swift.Int]) -> Swift.Bool
   @objc public static func launched(_ production: Swift.Bool)
   @objc public static func setDash(key: Swift.String, value: Swift.Double)
@@ -1245,6 +1264,9 @@ public var lastHintAmbient: Swift.Bool
   @objc public static func popUX(_ navVC: UIKit.UINavigationController, animated: Swift.Bool = true)
   @objc deinit
   @objc override dynamic public init()
+}
+extension RingoAI.FaceCaptureSW : CallKit.CXCallObserverDelegate {
+  @objc dynamic public func callObserver(_ callObserver: CallKit.CXCallObserver, callChanged call: CallKit.CXCall)
 }
 extension Foundation.NSNotification.Name {
   public static let kEXP_ISO_Notification: Foundation.NSNotification.Name
