@@ -1,5 +1,5 @@
 {
-	"modification_date": 1746648732,
+	"modification_date": 1747855796,
 	"dev_settings": {
 		"bgMode": 0,
 		"bottomNavBar": false,
@@ -9,7 +9,7 @@
 		"hintsOverLips": false,
 		"blurVideo":false,
 		"appBrightnessMode": 1,
-		"minEXPISO": 2.0,
+		"minEXPISO": 3.0,
 		"maxEXPISO": 10.0,
 
 		"kDefMovePitch": 10.0,

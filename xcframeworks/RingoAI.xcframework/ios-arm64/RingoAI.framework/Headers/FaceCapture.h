@@ -54,17 +54,6 @@ typedef NSArray<RingoMatch*>*  							RingoMatches;
 typedef NSDictionary<NSString*, id> RingoResult;
 #endif
 
-@interface RingoProduct: NSObject
-@property (nonatomic, strong, nonnull) 	NSString* 		family;
-@property (nonatomic, strong, nonnull) 	NSString* 		familyId;
-@property (nonatomic, strong, nonnull) 	NSString* 		desc1;
-@property (nonatomic, strong, nonnull) 	NSString* 		desc2;
-
-- (RingoProduct*_Nonnull)init:(NSString*_Nonnull)family
-					 familyId:(NSString*_Nonnull)familyId
-						desc1:(NSString*_Nonnull)desc1
-						desc2:(NSString*_Nonnull)desc2;
-@end
 
 @protocol FaceCaptureDelegate <NSObject>
 
@@ -98,6 +87,5 @@ typedef NSDictionary<NSString*, id> RingoResult;
 - (BOOL)questionnaire:(NSArray<NSNumber* >* _Nonnull) answers;
 - (NSArray<NSString*>*_Nonnull)supportedFamilyIDs;
 - (NSArray<NSString*>*_Nonnull)supportedFamilies;
-- (NSArray<RingoProduct*>*_Nonnull)supportedProducts;
-- (NSString*_Nullable)defaultFamilyID;
+
 @end

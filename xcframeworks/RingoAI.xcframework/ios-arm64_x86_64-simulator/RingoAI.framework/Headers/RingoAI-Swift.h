@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CallKit;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -353,23 +352,17 @@ SWIFT_CLASS("_TtC7RingoAI8Checkbox")
 - (void)layoutSubviews;
 @end
 
-@class RingoProduct;
-@class RingoMatch;
 SWIFT_CLASS("_TtC7RingoAI12ShadeMatcher")
 @interface ShadeMatcher : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShadeMatcher * _Nonnull current;)
 + (ShadeMatcher * _Nonnull)current SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull locationNames;
 @property (nonatomic, readonly, copy) NSString * _Nonnull defaultProduct;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull productLines;
-@property (nonatomic, copy) NSArray<RingoProduct *> * _Nonnull deepProductLines;
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull familyIDTable;
 - (NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)uxname SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (RingoMatch * _Nonnull)filterMatch:(RingoMatch * _Nonnull)result SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)productAndSKUinStoreWithProduct:(NSString * _Nonnull)product SKU:(NSString * _Nonnull)SKU SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nullable)metaForProduct:(NSString * _Nonnull)product SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)translate_shadeWithProduct:(NSString * _Nonnull)product shade:(NSString * _Nonnull)shade SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)familyIDfromProduct:(NSString * _Nonnull)product SWIFT_WARN_UNUSED_RESULT;
@@ -442,7 +435,6 @@ SWIFT_CLASS("_TtC7RingoAI15ElfShadeMatcher")
 @class UINavigationController;
 SWIFT_CLASS("_TtC7RingoAI13FaceCaptureSW")
 @interface FaceCaptureSW : NSObject
-@property (nonatomic, copy) NSString * _Nonnull familyID;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnull shared;)
 + (FaceCaptureSW * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(FaceCaptureSW * _Nonnull)value;
@@ -450,7 +442,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnu
 + (void)override_help:(NSString * _Nonnull)title :(NSString * _Nonnull)help;
 + (void)override_localizations:(NSDictionary<NSString *, NSString *> * _Nonnull)table;
 + (void)metadata:(NSDictionary<NSString *, id> * _Nonnull)meta_;
-- (NSString * _Nonnull)defaultFamilyID SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)FCquestionnaire:(NSArray<NSNumber *> * _Nonnull)answers SWIFT_WARN_UNUSED_RESULT;
 + (void)launched:(BOOL)production;
 + (void)setDashWithKey:(NSString * _Nonnull)key value:(double)value;
@@ -463,12 +454,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnu
 + (void)pushRestoreInstructions:(UINavigationController * _Nonnull)navVC animated:(BOOL)animated;
 + (void)popUX:(UINavigationController * _Nonnull)navVC animated:(BOOL)animated;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class CXCallObserver;
-@class CXCall;
-@interface FaceCaptureSW (SWIFT_EXTENSION(RingoAI)) <CXCallObserverDelegate>
-- (void)callObserver:(CXCallObserver * _Nonnull)callObserver callChanged:(CXCall * _Nonnull)call;
 @end
 
 @interface FaceCaptureSW (SWIFT_EXTENSION(RingoAI))
@@ -558,7 +543,6 @@ typedef SWIFT_ENUM(NSInteger, Distribution, open) {
 
 @interface NSString (SWIFT_EXTENSION(RingoAI))
 - (NSString * _Nonnull)nslocalize SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)localizefw SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSDate;
@@ -585,25 +569,10 @@ SWIFT_CLASS("_TtC7RingoAI9SavvyView")
 
 SWIFT_CLASS("_TtC7RingoAI8Settings")
 @interface Settings : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull location;)
-+ (NSString * _Nonnull)location SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLocation:(NSString * _Nonnull)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumber *> * _Nonnull uxLminmax;)
 + (NSArray<NSNumber *> * _Nonnull)uxLminmax SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumber *> * _Nonnull uxHminmax;)
 + (NSArray<NSNumber *> * _Nonnull)uxHminmax SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSInteger valN;)
-+ (NSInteger)valN SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValN:(NSInteger)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLcut;)
-+ (double)valLcut SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValLcut:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLrange;)
-+ (double)valLrange SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValLrange:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double blownOutThreshold;)
-+ (double)blownOutThreshold SWIFT_WARN_UNUSED_RESULT;
-+ (void)setBlownOutThreshold:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull ROI_hist_thresholds;)
 + (NSArray<NSNumber *> * _Nonnull)ROI_hist_thresholds SWIFT_WARN_UNUSED_RESULT;
 + (void)setROI_hist_thresholds:(NSArray<NSNumber *> * _Nonnull)newValue;
@@ -616,24 +585,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBBStackExposureRati
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWWStackExposureRatio;)
 + (double)lastWWStackExposureRatio SWIFT_WARN_UNUSED_RESULT;
 + (void)setLastWWStackExposureRatio:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBB2StackExposureRatio;)
-+ (double)lastBB2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLastBB2StackExposureRatio:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWW2StackExposureRatio;)
-+ (double)lastWW2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLastWW2StackExposureRatio:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin;)
 + (double)stackExposureRatioMin SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMin:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax;)
 + (double)stackExposureRatioMax SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMax:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin2;)
-+ (double)stackExposureRatioMin2 SWIFT_WARN_UNUSED_RESULT;
-+ (void)setStackExposureRatioMin2:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax2;)
-+ (double)stackExposureRatioMax2 SWIFT_WARN_UNUSED_RESULT;
-+ (void)setStackExposureRatioMax2:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double pupilMinValue;)
 + (double)pupilMinValue SWIFT_WARN_UNUSED_RESULT;
 + (void)setPupilMinValue:(double)newValue;
@@ -649,12 +606,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double appBrightness;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackBrightness;)
 + (double)stackBrightness SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackBrightness:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double caveValue;)
-+ (double)caveValue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setCaveValue:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double antiCaveValue;)
-+ (double)antiCaveValue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAntiCaveValue:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double max_pupil_depth_diff;)
 + (double)max_pupil_depth_diff SWIFT_WARN_UNUSED_RESULT;
 + (void)setMax_pupil_depth_diff:(double)newValue;
@@ -757,9 +708,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hud;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL saveThumbnail;)
 + (BOOL)saveThumbnail SWIFT_WARN_UNUSED_RESULT;
 + (void)setSaveThumbnail:(BOOL)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL engineLights;)
-+ (BOOL)engineLights SWIFT_WARN_UNUSED_RESULT;
-+ (void)setEngineLights:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL capture_mosaic;)
 + (BOOL)capture_mosaic SWIFT_WARN_UNUSED_RESULT;
 + (void)setCapture_mosaic:(BOOL)newValue;
@@ -1310,7 +1258,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CallKit;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -1382,23 +1329,17 @@ SWIFT_CLASS("_TtC7RingoAI8Checkbox")
 - (void)layoutSubviews;
 @end
 
-@class RingoProduct;
-@class RingoMatch;
 SWIFT_CLASS("_TtC7RingoAI12ShadeMatcher")
 @interface ShadeMatcher : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShadeMatcher * _Nonnull current;)
 + (ShadeMatcher * _Nonnull)current SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull locationNames;
 @property (nonatomic, readonly, copy) NSString * _Nonnull defaultProduct;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull productLines;
-@property (nonatomic, copy) NSArray<RingoProduct *> * _Nonnull deepProductLines;
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull familyIDTable;
 - (NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)uxname SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (RingoMatch * _Nonnull)filterMatch:(RingoMatch * _Nonnull)result SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)productAndSKUinStoreWithProduct:(NSString * _Nonnull)product SKU:(NSString * _Nonnull)SKU SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nullable)metaForProduct:(NSString * _Nonnull)product SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)translate_shadeWithProduct:(NSString * _Nonnull)product shade:(NSString * _Nonnull)shade SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)familyIDfromProduct:(NSString * _Nonnull)product SWIFT_WARN_UNUSED_RESULT;
@@ -1471,7 +1412,6 @@ SWIFT_CLASS("_TtC7RingoAI15ElfShadeMatcher")
 @class UINavigationController;
 SWIFT_CLASS("_TtC7RingoAI13FaceCaptureSW")
 @interface FaceCaptureSW : NSObject
-@property (nonatomic, copy) NSString * _Nonnull familyID;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnull shared;)
 + (FaceCaptureSW * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(FaceCaptureSW * _Nonnull)value;
@@ -1479,7 +1419,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnu
 + (void)override_help:(NSString * _Nonnull)title :(NSString * _Nonnull)help;
 + (void)override_localizations:(NSDictionary<NSString *, NSString *> * _Nonnull)table;
 + (void)metadata:(NSDictionary<NSString *, id> * _Nonnull)meta_;
-- (NSString * _Nonnull)defaultFamilyID SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)FCquestionnaire:(NSArray<NSNumber *> * _Nonnull)answers SWIFT_WARN_UNUSED_RESULT;
 + (void)launched:(BOOL)production;
 + (void)setDashWithKey:(NSString * _Nonnull)key value:(double)value;
@@ -1492,12 +1431,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnu
 + (void)pushRestoreInstructions:(UINavigationController * _Nonnull)navVC animated:(BOOL)animated;
 + (void)popUX:(UINavigationController * _Nonnull)navVC animated:(BOOL)animated;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class CXCallObserver;
-@class CXCall;
-@interface FaceCaptureSW (SWIFT_EXTENSION(RingoAI)) <CXCallObserverDelegate>
-- (void)callObserver:(CXCallObserver * _Nonnull)callObserver callChanged:(CXCall * _Nonnull)call;
 @end
 
 @interface FaceCaptureSW (SWIFT_EXTENSION(RingoAI))
@@ -1587,7 +1520,6 @@ typedef SWIFT_ENUM(NSInteger, Distribution, open) {
 
 @interface NSString (SWIFT_EXTENSION(RingoAI))
 - (NSString * _Nonnull)nslocalize SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)localizefw SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSDate;
@@ -1614,25 +1546,10 @@ SWIFT_CLASS("_TtC7RingoAI9SavvyView")
 
 SWIFT_CLASS("_TtC7RingoAI8Settings")
 @interface Settings : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull location;)
-+ (NSString * _Nonnull)location SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLocation:(NSString * _Nonnull)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumber *> * _Nonnull uxLminmax;)
 + (NSArray<NSNumber *> * _Nonnull)uxLminmax SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSNumber *> * _Nonnull uxHminmax;)
 + (NSArray<NSNumber *> * _Nonnull)uxHminmax SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSInteger valN;)
-+ (NSInteger)valN SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValN:(NSInteger)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLcut;)
-+ (double)valLcut SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValLcut:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double valLrange;)
-+ (double)valLrange SWIFT_WARN_UNUSED_RESULT;
-+ (void)setValLrange:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double blownOutThreshold;)
-+ (double)blownOutThreshold SWIFT_WARN_UNUSED_RESULT;
-+ (void)setBlownOutThreshold:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull ROI_hist_thresholds;)
 + (NSArray<NSNumber *> * _Nonnull)ROI_hist_thresholds SWIFT_WARN_UNUSED_RESULT;
 + (void)setROI_hist_thresholds:(NSArray<NSNumber *> * _Nonnull)newValue;
@@ -1645,24 +1562,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBBStackExposureRati
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWWStackExposureRatio;)
 + (double)lastWWStackExposureRatio SWIFT_WARN_UNUSED_RESULT;
 + (void)setLastWWStackExposureRatio:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastBB2StackExposureRatio;)
-+ (double)lastBB2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLastBB2StackExposureRatio:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double lastWW2StackExposureRatio;)
-+ (double)lastWW2StackExposureRatio SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLastWW2StackExposureRatio:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin;)
 + (double)stackExposureRatioMin SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMin:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax;)
 + (double)stackExposureRatioMax SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackExposureRatioMax:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMin2;)
-+ (double)stackExposureRatioMin2 SWIFT_WARN_UNUSED_RESULT;
-+ (void)setStackExposureRatioMin2:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackExposureRatioMax2;)
-+ (double)stackExposureRatioMax2 SWIFT_WARN_UNUSED_RESULT;
-+ (void)setStackExposureRatioMax2:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double pupilMinValue;)
 + (double)pupilMinValue SWIFT_WARN_UNUSED_RESULT;
 + (void)setPupilMinValue:(double)newValue;
@@ -1678,12 +1583,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double appBrightness;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double stackBrightness;)
 + (double)stackBrightness SWIFT_WARN_UNUSED_RESULT;
 + (void)setStackBrightness:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double caveValue;)
-+ (double)caveValue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setCaveValue:(double)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double antiCaveValue;)
-+ (double)antiCaveValue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAntiCaveValue:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double max_pupil_depth_diff;)
 + (double)max_pupil_depth_diff SWIFT_WARN_UNUSED_RESULT;
 + (void)setMax_pupil_depth_diff:(double)newValue;
@@ -1786,9 +1685,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hud;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL saveThumbnail;)
 + (BOOL)saveThumbnail SWIFT_WARN_UNUSED_RESULT;
 + (void)setSaveThumbnail:(BOOL)newValue;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL engineLights;)
-+ (BOOL)engineLights SWIFT_WARN_UNUSED_RESULT;
-+ (void)setEngineLights:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL capture_mosaic;)
 + (BOOL)capture_mosaic SWIFT_WARN_UNUSED_RESULT;
 + (void)setCapture_mosaic:(BOOL)newValue;

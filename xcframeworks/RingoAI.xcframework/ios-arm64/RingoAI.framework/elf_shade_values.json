@@ -1,6 +1,6 @@
 {
-	"modification_date": 1747849509,
-	"production": true,
+	"modification_date": 1747859802,
+	"production":true,
 	"Lcoef_manual": [0.0, 1.0, 0.0],
 	"Lcoef_auto": [0.0, 0.9333, 0.005679],
 	"Lcoef_hybrid": [0.0, 1.1335, 0.0],

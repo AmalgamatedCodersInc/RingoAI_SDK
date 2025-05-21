@@ -7,8 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <RingoAISupport/RingoCV.h>
-#import <CoreImage/CoreImage.h>
-#import <CallKit/CallKit.h>
 
 //! Project version number for zipper.
 FOUNDATION_EXPORT double ringoAISupportVersionNumber;
@@ -22,7 +20,6 @@ FOUNDATION_EXPORT const unsigned char ringoAISupportVersionString[];
 extern "C" {
 #endif
 NSError* zipper(NSURL* folder, NSURL* zipFile, NSString* password);
-bool ringo_hasGlasses(CIImage* ciimg, CGPoint L_eye, CGPoint R_eye, double glassesConstant);
 #if __cplusplus
 }
 #endif

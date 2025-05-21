@@ -28,7 +28,7 @@ typedef struct C_RGBFloat C_RGBFloat;
 #ifdef __cplusplus
 extern "C" {
 #endif
-C_Histogram test_C_Histogram(void);
+C_Histogram test_C_Histogram();
 #ifdef __cplusplus
 }
 #endif
