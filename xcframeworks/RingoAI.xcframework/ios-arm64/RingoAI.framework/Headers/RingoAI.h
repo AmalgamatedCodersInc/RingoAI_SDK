@@ -15,10 +15,12 @@ FOUNDATION_EXPORT const unsigned char RingoAIVersionString[];
 #import <RingoAI/FaceCapture.h>
 #import <RingoAI/objc.h>
 
-extern NSString* kRingoNameKey;
-extern NSString* kRingoConditionKey;
+extern NSString* _Nonnull kRingoNameKey;
+extern NSString* _Nonnull kRingoConditionKey;
 
 @interface RingoAI : NSObject
+
+@property (class, strong) NSString* location;
 
 + (NSDictionary<NSString*, NSString*>*)preflightRequirements;	// everything's OK if returns nil
 
@@ -30,5 +32,8 @@ extern NSString* kRingoConditionKey;
 
 + (NSDictionary*)history;
 
++ (NSArray<NSString*>*)locationNames;
+
++ (RingoMatch* _Nonnull)filterMatch:(RingoMatch* _Nonnull)match;
 @end
 

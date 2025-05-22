@@ -18,7 +18,7 @@
 		</data>
 		<key>DevSettingsVC.nib</key>
 		<data>
-		avGYyC3B72TNitekIN7idvJPDyI=
+		lCPH0mLSrNbDWZ1gGpiDWmyTOIQ=
 		</data>
 		<key>FaceCaptureVC.nib</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/FaceCapture.h</key>
 		<data>
-		nIumAM8d4Kt0RH8lV/MwkyoH5dU=
+		OUSkRBxUVh9MnkrsmkBnapZEQCQ=
 		</data>
 		<key>Headers/Goodies.h</key>
 		<data>
-		ylXU89W/PVHNNXqF9BKUMBKK7u8=
+		FQFPT2q3lJayrQBtDZAW20ZzWyo=
 		</data>
 		<key>Headers/GyroHelper.h</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/RingoAI-Swift.h</key>
 		<data>
-		M8EX+ddns/2yuUkrzenrvJzu+Ek=
+		NAO8uNNjfcFuPhmNR2D9kLZnEYs=
 		</data>
 		<key>Headers/RingoAI.h</key>
 		<data>
-		jzm/ND0y5TjIlr2KVxQkjM/77AE=
+		DL9YnDdn0IAtyHK5fT1DadvLzVo=
 		</data>
 		<key>Headers/UIColorPlus.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JfQiJ4X9XIcNMAlMTS+P2SxsHU0=
+		d5XlZsz4+go7Ra+pUlGfQLgqprU=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/uSOAPZy9UHsBqDZbnCavpD/Pgo=
+		hZINLmY4kS2s1+WCMhLdqqlqtdo=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EOyH8aSAldZAOAPRyIwY7nctIKc=
+		d76dzB9D4d1YzHQ+cN+qT9p07Sc=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EOyH8aSAldZAOAPRyIwY7nctIKc=
+		d76dzB9D4d1YzHQ+cN+qT9p07Sc=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		onaNDbPkQpMNP4K/lFFOLXNru2I=
+		YgpSICd7WtRwj+jirtfUwEeC/U0=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/uSOAPZy9UHsBqDZbnCavpD/Pgo=
+		hZINLmY4kS2s1+WCMhLdqqlqtdo=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7pzpxgkK+Ysj0wEbtWmdpGzrVrs=
+		KYcdUFOZHrFyEz0YtuS9hmguDWk=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7pzpxgkK+Ysj0wEbtWmdpGzrVrs=
+		KYcdUFOZHrFyEz0YtuS9hmguDWk=
 		</data>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bPUdx1rsXmvEgcfek3R+NT1MFis=
+		ZdUjsUrZC17A0XRwE4L9YubwGB8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>PrivateHeaders/FaceCapturePrivate.h</key>
 		<data>
-		u7LnaAzcnfMfUBt5L4KvRX3l7GE=
+		44mhdJPbTT91gSCfctp4RUT8f/M=
 		</data>
 		<key>PrivateHeaders/IteratePoly.h</key>
 		<data>
-		e7j/3LtNarwH8Ev9bTTgqCMQLUo=
+		ErCRxxywya616pViPvl+w/7wWJU=
 		</data>
 		<key>PrivateHeaders/NSDataPlus.h</key>
 		<data>
@@ -167,6 +167,10 @@
 		<key>SDK_logo_on_w.png</key>
 		<data>
 		o6L+zD/y/Nd9cQvfPfw9bK1GCtg=
+		</data>
+		<key>SVGColors.plist</key>
+		<data>
+		Vklw/tKG7sxTX62JlEIdw5QC98w=
 		</data>
 		<key>UnitTestPickerVC.nib</key>
 		<data>
@@ -219,7 +223,7 @@
 		</dict>
 		<key>expisotable.json</key>
 		<data>
-		v2NXTEEL5OozgSxZyowuzC4Bcvo=
+		K4DQpcjjp8BJlAOnfRK2HSLquu0=
 		</data>
 		<key>face_landmarker.task</key>
 		<data>
@@ -330,7 +334,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UnHBH4TmXeV2skVhSdWid7i3HKNAvcX+EwDuVbGlZ4U=
+			8F0+bN0UPeSlOBL7uDqgZzsbd86sjNzZnYsYQ5lWqO0=
 			</data>
 		</dict>
 		<key>FaceCaptureVC.nib</key>
@@ -372,14 +376,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bvg5WaYfIeJBOVe9Ls7wEg6Y2p8oyEOMg5RCNbKUXUU=
+			mjqpthclEWayXS01e1HGqiDso18NERGh3mWUXxjAODI=
 			</data>
 		</dict>
 		<key>Headers/Goodies.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t18SRphYPrTDBD+Wk2qj22aO3vVapLziXyjPnW1MRu8=
+			H6/hD19qqMCrXjUukYD6wQtUXpSfSsixq+W8/A7n2EQ=
 			</data>
 		</dict>
 		<key>Headers/GyroHelper.h</key>
@@ -400,14 +404,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QsO0MT88Gbe6yY3g0qeZPaZ/W7ypYkDUpfVlRQ/Wmog=
+			S5svogN/qnt1sRfgwzY82KFQeSpFASALjKJh4Iso9ls=
 			</data>
 		</dict>
 		<key>Headers/RingoAI.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fgH2bSgcUb7k2EFzsNpC32NodR5fbtLpTenaqDBIzeU=
+			ec30y38t6KRdXIghS18xyD6UMYokCOVI2U3IJ410b/Y=
 			</data>
 		</dict>
 		<key>Headers/UIColorPlus.h</key>
@@ -463,14 +467,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWVTapuQDQQn96RmUympE8jsQ6pUqib2X4qENMfDQzc=
+			53KR7gAITbF6bCrfUe8mMRyzbc81ghkpRlWxyHe13P0=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tWlSHN459G6LDpRLtlewHJo5+qMaEiVASwrbsfHwk5g=
+			MSGnmvAnGecaOX9Bqxx9tMOZkZfBig8ASZ3jTRcaBAQ=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -484,28 +488,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tWlSHN459G6LDpRLtlewHJo5+qMaEiVASwrbsfHwk5g=
+			MSGnmvAnGecaOX9Bqxx9tMOZkZfBig8ASZ3jTRcaBAQ=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F+aEYGN3Bfk993n15i6rvOko0Mwz462bkBnI4hZsftM=
+			gs2OV4SouimJFrXW7rOLov7fmr3r5wL93R53UxU170A=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWVTapuQDQQn96RmUympE8jsQ6pUqib2X4qENMfDQzc=
+			53KR7gAITbF6bCrfUe8mMRyzbc81ghkpRlWxyHe13P0=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1U/nkwbVi0rB+dIh7AmFefQc/ukFFFBZ0Bzxkfu03M=
+			5WiZw6dSPhtMnkD/W+ldc0lJ9VSDAeo8KWKRGS9VIrU=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -519,14 +523,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1U/nkwbVi0rB+dIh7AmFefQc/ukFFFBZ0Bzxkfu03M=
+			5WiZw6dSPhtMnkD/W+ldc0lJ9VSDAeo8KWKRGS9VIrU=
 			</data>
 		</dict>
 		<key>Modules/RingoAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G4916xrN/VhI2Sj79mS9xhwH46n7CYdkAJ/1ecXJrAo=
+			lRAGKGIp3DoADlvgu69oI3aoaKxpweuD/6pYEwtPgfo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -540,14 +544,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b6jyvjcsGwZBD2zV1Oub4bdg5bU/Hz0WbrBbRaIiSDE=
+			O6nkR5aQxJapqmyBD/4gn8dYCZ9/IIVxLKDe/wlfpt0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/IteratePoly.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u1pWbRSibToRGIMvDrSPzRqUOwQZWC8b/J2NhCIF6Io=
+			QPjxcjvD8lCf5zIpbRFM2AnwRGd0AGFV2140JKfN1kY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/NSDataPlus.h</key>
@@ -576,6 +580,13 @@
 			<key>hash2</key>
 			<data>
 			jbVvapM/OorW+LNacdeh5i3QKJxBItjv27AzHAW1sj8=
+			</data>
+		</dict>
+		<key>SVGColors.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			35OT27vaY3jfBaT6RWLGTdzQOUiXiQK5oo/epBBnASI=
 			</data>
 		</dict>
 		<key>UnitTestPickerVC.nib</key>
@@ -661,7 +672,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			18pex6V7w2QL6rYOxlZbkvxu2mhvRGlMLNepi8asWok=
+			nhL+CSgoO9srs5CABgVwvPPC0FTRRBhYI531W2BpvAA=
 			</data>
 		</dict>
 		<key>face_landmarker.task</key>
