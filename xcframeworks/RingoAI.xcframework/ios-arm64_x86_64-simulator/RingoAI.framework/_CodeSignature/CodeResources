@@ -156,6 +156,10 @@
 		<data>
 		yw0xklm2TqKODkR6ZNJ8X5kvAww=
 		</data>
+		<key>PrivateHeaders/PocketSVG.h</key>
+		<data>
+		HRPYj7dmj3iW6yrSfA0ZBzqCUks=
+		</data>
 		<key>PrivateHeaders/RingoAIPrivate.h</key>
 		<data>
 		gzOXRxZ+7gxNbWXODN1fJwieYSE=
@@ -559,6 +563,13 @@
 			<key>hash2</key>
 			<data>
 			TpqB8IzciAUkJwwSD4ArWfxVNwMw26Nn+Qp7Zz6QyeY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PocketSVG.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X70rrWdQd0F3bH5T46uSATXGTQwOsj7TjUQHSMrR6I8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RingoAIPrivate.h</key>
